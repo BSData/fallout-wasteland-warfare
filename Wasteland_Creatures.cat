@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="aa3a-939f-8eca-9ad0" name="Wasteland Creatures" revision="1" battleScribeVersion="2.01" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="fa38-67be-184a-2c30" name="Creatures" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+1. Creatures cannot use Power Armor.
+
+2. Creatures cannot use Food &amp; Drink, Alcohol or Chems.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="c40e-8abd-3798-696b" name="Deathclaw" hidden="false" targetId="a147-1a6a-3448-d6b7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="025a-f3bc-f11c-fda1" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a08c-c1f8-1bcb-d768" name="Alien" hidden="false" targetId="39c6-51e7-eb67-6cb3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fa28-18f1-bda4-6ebd" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

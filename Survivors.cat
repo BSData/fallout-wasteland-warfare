@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ed47-c664-dac8-501c" name="Survivors" revision="2" battleScribeVersion="2.01" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="5778-d90c-5741-9cfe" name="Survivors" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+1. Survivor models each start with armor boost token.
+*Unique units receive 2 armor boost token per model.
+*Non-unique units receive 1 armor boost token per model.
+
+2. Can have up to two Sole survivors with different names in same force.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="8bac-63d3-a510-90e6" name="zU Cait" hidden="false" targetId="b2ba-ae8d-88b7-b731" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="76b4-dac0-8d2c-35b9" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f892-8933-7d2e-194d" name="zU Enslaved Tech (Surv)" hidden="false" targetId="a809-9c75-83d7-3707" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c559-f3dd-2e76-f84c" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c105-5a30-675b-1865" name="zU Settler" hidden="false" targetId="1610-e4d1-feee-b817" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bdb4-e335-e23c-7bf1" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="07b7-1825-458b-4bac" name="zU Eyebot" hidden="false" targetId="7102-556c-f9b5-d329" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="da0d-7b5c-b34e-fcb6" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f1ad-4340-4214-421b" name="zU Mama Murphy" hidden="false" targetId="f7fa-db2d-c165-b7c8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="77d5-7741-5f76-db6c" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3260-1458-c7f3-afdc" name="zU Minuteman" hidden="false" targetId="e9b7-eba5-3916-6ab6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0203-963f-56cd-7e18" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aaf6-5649-5ea4-49c4" name="zU Piper" hidden="false" targetId="1794-8f87-d6fa-77db" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="99f5-ad96-103d-0a5d" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="75a3-034e-4659-278d" name="zU Preston Garvey" hidden="false" targetId="dbc9-bbf0-7261-f7b4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0bb7-650c-1a5b-f767" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bb2f-903b-8c09-b78b" name="zU Ronnie Shaw" hidden="false" targetId="85c8-003c-8d56-843a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1437-c1ab-cbf9-9711" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2b0a-6ad2-f5bb-1c4b" name="zU Scavenger" hidden="false" targetId="3219-568b-76d3-05ee" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6798-6ca1-297f-03a2" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3ff2-6ca5-7e48-2bd4" name="zU Sturges" hidden="false" targetId="e93b-c113-14df-e717" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7b30-7253-8af8-0ec1" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ca59-a49d-8ade-0c44" name="zU X6-88 Courser" hidden="false" targetId="368a-6000-0c1c-5072" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e46e-74fb-ae0a-dbde" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="69b2-6a86-aeff-3e8f" name="zU Sole Survivor" hidden="false" targetId="f06e-f301-c7ef-101d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cab4-7bec-7439-5394" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="99bd-0636-ffed-11f1" name="zU Codsworth" hidden="false" targetId="de47-0cc0-7d79-f5af" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a3c3-9f97-8b5e-fcaa" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e471-9454-adc7-d99f" name="zU Mr Handy" hidden="false" targetId="caf6-4530-84a9-4474" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="28bd-4ddc-0ab6-932c" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="913f-7acf-4eb0-15d2" name="zU Dog" hidden="false" targetId="de17-e7ab-2531-0255" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2834-67b2-8163-3581" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3985-e137-33ee-ab4d" name="zU Dogmeat" hidden="false" targetId="9474-3cea-4c03-45d2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="82b2-8ba1-5d34-ef74" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d0f0-6b2f-0618-03bb" name="zU Nuka-Girl" hidden="false" targetId="c06e-6bfe-a264-8b69" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0624-4dc5-f6c4-9138" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

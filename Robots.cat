@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5217-908e-eb66-f746" name="Robots" revision="1" battleScribeVersion="2.01" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="d8b4-0096-6d4e-4208" name="Robots" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+1. Robots can not use Power Armor.
+
+2. Robots are immune to Poison.
+
+3. Robots cannot use Food &amp; Drink, Alcohol or Chems.
+
+4. Robots can have damage removed using a Robot Repair Kit.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

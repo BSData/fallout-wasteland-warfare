@@ -395,7 +395,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a147-1a6a-3448-d6b7" name="#zU Deathclaw" hidden="false" collective="false" type="model">
+    <selectionEntry id="a147-1a6a-3448-d6b7" name="Deathclaw" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1534,7 +1534,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39c6-51e7-eb67-6cb3" name="#zU Alien" hidden="false" collective="false" type="model">
+    <selectionEntry id="39c6-51e7-eb67-6cb3" name="Alien" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1566,7 +1566,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0085-434c-ed6b-0a39" name="#zU Assaultron" hidden="false" collective="false" type="model">
+    <selectionEntry id="0085-434c-ed6b-0a39" name="Assaultron" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1954,7 +1954,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="59.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3e1-d7b4-a02a-0248" name="#zU Feral Ghoul" hidden="false" collective="false" type="model">
+    <selectionEntry id="e3e1-d7b4-a02a-0248" name="Feral Ghoul" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4675,7 +4675,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="124.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f516-0f42-93c3-4b28" name="#zU Protectron" hidden="false" collective="false" type="model">
+    <selectionEntry id="f516-0f42-93c3-4b28" name="Protectron" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4701,7 +4701,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3632-8633-2fb1-5eb2" name="#zU Radroach Swam" hidden="false" collective="false" type="model">
+    <selectionEntry id="3632-8633-2fb1-5eb2" name="Radroach Swam" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4727,7 +4727,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="17.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="664b-a120-82ff-0164" name="#zU Radscorpion" hidden="false" collective="false" type="model">
+    <selectionEntry id="664b-a120-82ff-0164" name="Radscorpion" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5231,7 +5231,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a5a-e3dc-8f29-2ab2" name="#zU Sentry Bot" hidden="false" collective="false" type="model">
+    <selectionEntry id="2a5a-e3dc-8f29-2ab2" name="Sentry Bot" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -14,16 +14,22 @@ Game webpage: https://www.modiphius.com/fallout.html
 
 __What's this?__
 
-BSData organisation created this project. It's GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe. If you want
-to develop - cool! We need you! Take a look at [Getting Started wiki][]
+This is a battlescribe data file Fallout: wasteland warfare.
 
 __Okay, nice project. Is it actually working?__ _I just want those files..._
 
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
+__When is it updated?__
+
+A new MAJOR version (1.x.x) will come out whenever a new version of the rules is released that will drastically change the game.
+
+A new MINOR version (x.1.x) will come out whenever a new wave of models is released.
+
+A new PATCH version (x.x.1) will come out whenever I fix small errors or add some missing content.
+
 ## Reporting bugs & contact us 
-[Reporting bugs & contact us]: #reporting_bugs_&_contact_us
+[Reporting bugs & contact us]: #reporting-bugs--contact-us
 
 __I found a bug!__
 

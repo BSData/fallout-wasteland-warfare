@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="7e9f-cab7-294b-0a43" name="Fallout: Wasteland Warfare" revision="3" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="7e9f-cab7-294b-0a43" name="Fallout: Wasteland Warfare" revision="4" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -136,20 +136,6 @@
       <forceEntries/>
       <categoryLinks>
         <categoryLink id="de1f-c67d-80ff-e507" name="Settlement" hidden="false" targetId="7228-f91f-890b-9b19" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="db1c-c9bc-315b-b908" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="0576-7351-3812-4af1" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1241,44 +1227,17 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="a829-19a2-11a2-f18f" name="Heavy" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="1f30-443c-f095-f15d" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="0d3a-c0fa-3ba5-2e9f" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="2189-ce1f-99a1-95a8" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="f937-7cb6-fbde-4d72" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2285,28 +2244,17 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="1642-a75c-dd49-0c10" name="Heavy" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="24f9-39b9-4abe-ae64" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="7cb0-a274-901d-2487" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2509,42 +2457,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="e85b-2ddf-4174-41d1" name="Heavy" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a172-dfaa-fdbe-97d0" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="c125-f10a-5997-a523" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="65f7-8788-4e1d-a4c9" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup id="eaf2-16ef-e65f-7fd4" name="Power Armor" hidden="false" collective="false">
               <profiles/>
               <rules/>
@@ -2585,7 +2497,16 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="2b7b-1896-8107-a677" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -3303,44 +3224,17 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="d8a2-e448-0187-d8bb" name="Heavy" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="c7e3-e6aa-ace8-e19b" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="7547-5203-3e53-7ec8" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="0b56-5901-8087-f3aa" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="f5d3-b7af-4de1-4aed" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -3996,42 +3890,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="bb91-acdf-66c2-893a" name="Heavy" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="d98b-7b34-8065-24b0" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="8446-6a18-025d-b7a9" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="e2da-d6da-282f-de45" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup id="8c81-a2bc-4f18-e733" name="Power Armor" hidden="false" collective="false">
               <profiles/>
               <rules/>
@@ -4072,7 +3930,16 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="ff08-7887-4d27-33b4" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -4277,42 +4144,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="9d08-c0c1-3634-08ee" name="Heavy" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="834d-f3ee-d72a-0126" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="c84f-4477-dc63-3373" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="3aff-e4f6-a6fc-c83d" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup id="6009-0089-0098-78e0" name="Power Armor" hidden="false" collective="false">
               <profiles/>
               <rules/>
@@ -4337,7 +4168,16 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="67da-11d4-43a5-6fb2" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -4555,7 +4395,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5724,28 +5566,17 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="daff-f707-f0e1-854d" name="Heavy" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="55e9-0799-4291-185e" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="7bd5-826e-73ea-9d1b" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -5950,42 +5781,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="5d10-dea8-a384-9ec4" name="Heavy" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="3a0c-f577-415e-f70d" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="b3f7-9b23-1847-567e" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="6850-2db5-33e9-1858" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup id="dc1e-189a-098d-0a96" name="Chem" hidden="false" collective="false">
               <profiles/>
               <rules/>
@@ -6046,7 +5841,16 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="3b70-cc36-0ae9-d13d" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -8717,7 +8521,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ae8-1748-6923-b2dc" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ae8-1748-6923-b2dc" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -9039,7 +8843,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a770-f6c4-561d-0ec3" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a770-f6c4-561d-0ec3" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -9351,42 +9155,6 @@
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="2245-c203-f2f3-cf7f" name="Heavy" hidden="false" collective="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks>
-                        <entryLink id="e821-53fc-32c6-baae" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                        <entryLink id="65b7-8a83-2ec9-06be" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                        <entryLink id="647c-c298-96da-0210" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                      </entryLinks>
-                    </selectionEntryGroup>
                     <selectionEntryGroup id="ef28-2cd7-fd37-424a" name="Mines" hidden="false" collective="false">
                       <profiles/>
                       <rules/>
@@ -9483,7 +9251,16 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
-                  <entryLinks/>
+                  <entryLinks>
+                    <entryLink id="e50e-4aa6-c127-a264" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -9522,7 +9299,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601b-0d13-fc2b-e288" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="601b-0d13-fc2b-e288" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -9816,42 +9593,6 @@
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="aae8-67bd-6ce1-0d8e" name="Heavy" hidden="false" collective="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks>
-                        <entryLink id="f783-ffe2-0039-60bb" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                        <entryLink id="8e69-ac30-a0c5-4c4e" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                        <entryLink id="82b5-f775-0b5a-189a" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                      </entryLinks>
-                    </selectionEntryGroup>
                     <selectionEntryGroup id="d64e-e421-45ad-e756" name="Mines" hidden="false" collective="false">
                       <profiles/>
                       <rules/>
@@ -9945,7 +9686,16 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
-                  <entryLinks/>
+                  <entryLinks>
+                    <entryLink id="7679-7188-7d39-11c6" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -10620,50 +10370,6 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3c4b-8e0b-0fcf-589e" name="Heavy" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="9975-9825-5123-38cc" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="3ab9-eab4-4d05-7a0c" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="91a5-8970-6404-280a" name="Broadsider" hidden="false" targetId="6ddf-3051-8976-ec25" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="de80-cb91-a95d-5a66" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
             <selectionEntryGroup id="5f88-92e0-5f1c-6135" name="Mines" hidden="false" collective="false">
               <profiles/>
               <rules/>
@@ -10740,7 +10446,16 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="d4f3-039e-537e-d10a" name="Heavy" hidden="false" targetId="6636-a98d-295f-3a74" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -11038,13 +10753,13 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="739d-a231-c0c6-5f59" name="Action Boy/Girl" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="739d-a231-c0c6-5f59" name="Action Boy/Girl" hidden="false" collective="false" type="model">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071e-a3a0-42f4-85b2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b477-f80e-01dd-3332" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -11054,13 +10769,13 @@
             <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2aae-9b77-357f-71bb" name="Armorer" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2aae-9b77-357f-71bb" name="Armorer" hidden="false" collective="false" type="unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5639-6b41-87c5-9a53" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d55-ec73-17a6-4c6a" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -11076,7 +10791,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="828b-0b72-e0c0-1a50" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec14-e109-2a10-4dde" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -12379,6 +12094,130 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="f7c8-5fde-033d-a022" name="zG Fusion Core" hidden="false" targetId="24c0-84f5-8524-4394" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6636-a98d-295f-3a74" name="Heavy" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="5">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="6">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="1750.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="7">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="2000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="b7c4-7693-f40b-b03f" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="limit::cac8-29eb-2cba-7923" scope="roster" value="1250.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7c4-7693-f40b-b03f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="37c2-310e-5b99-1a85" name="Missile Launcher" hidden="false" targetId="43bf-cd2c-3da6-2b37" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3d88-482c-6a94-1d5d" name="Minigun" hidden="false" targetId="1547-b05a-4109-9961" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368a-6000-0c1c-5072" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f435-a340-401c-e71e" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c82f-e4da-2f07-dbdc" name="Gatling Laser" hidden="false" targetId="a0e6-c9cb-b009-890d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="368a-6000-0c1c-5072" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f435-a340-401c-e71e" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ab35-9dd2-2d36-ac3f" name="Broadsider" hidden="true" targetId="6ddf-3051-8976-ec25" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

@@ -8493,7 +8493,7 @@
         <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f06e-f301-c7ef-101d" name="Sole Survivor" hidden="false" collective="false" type="model">
+    <selectionEntry id="f06e-f301-c7ef-101d" name="The Sole Survivor" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>

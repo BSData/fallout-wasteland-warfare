@@ -23,7 +23,7 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 ## Reporting bugs & contact us 
-[Reporting bugs & contact us]: #reporting_bugs_&_contact_us
+[Reporting bugs & contact us]: #reporting-bugs--contact-us
 
 __I found a bug!__
 

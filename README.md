@@ -30,6 +30,7 @@ __I found a bug!__
 Great, thank you! Now you have two options:
 
 _Report it on Appspot_ - it's anonymous and no account is needed - one downside, you will need to manually check the progress of your issue.
+
 _Open Issue directly_ (green New Issue in upper-right) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
 
 ## Links ##

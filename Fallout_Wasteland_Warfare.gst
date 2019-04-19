@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="7e9f-cab7-294b-0a43" name="Fallout: Wasteland Warfare" revision="5" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="7e9f-cab7-294b-0a43" name="Fallout: Wasteland Warfare" revision="6" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -311,7 +311,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="240.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="295.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a809-9c75-83d7-3707" name="Enslaved Tech" book="Sur" hidden="false" collective="false" type="model">
@@ -693,7 +693,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="300.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="320.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca19-95db-6729-7b16" name="Behemoth" hidden="false" collective="false" type="model">
@@ -732,7 +732,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="209.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="245.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2ba-ae8d-88b7-b731" name="Cait" hidden="false" collective="false" type="model">
@@ -799,7 +799,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="137.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de47-0cc0-7d79-f5af" name="Codsworth" hidden="false" collective="false" type="model">
@@ -946,7 +946,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="45.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3a8-115c-143c-262f" name="Field Scribe" hidden="false" collective="false" type="model">
@@ -1042,7 +1042,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="114.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="105.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd03-7caa-0aa7-bb9b" name="Knight" hidden="false" collective="false" type="model">
@@ -1089,7 +1089,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="62.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2caa-9583-d480-f4d1" name="Knight Patrol" hidden="false" collective="false" type="model">
@@ -1136,7 +1136,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="51.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="49.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e1e-0f39-96f8-d1ea" name="Knight Patrol (Blade)" hidden="false" collective="false" type="model">
@@ -1183,7 +1183,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="47.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca1e-16ca-e6ee-e83f" name="Lancer" hidden="false" collective="false" type="model">
@@ -1230,7 +1230,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="53.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7fa-db2d-c165-b7c8" name="Mama Murphy" hidden="false" collective="false" type="model">
@@ -1314,7 +1314,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="160.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71a9-c7d8-bd40-dfdd" name="Master" hidden="false" collective="false" type="model">
@@ -1554,7 +1554,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="60.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="76.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07ad-dfc6-5686-1618" name="Paladin" hidden="false" collective="false" type="model">
@@ -1792,7 +1792,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="70.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3632-8633-2fb1-5eb2" name="Radroach Swam" hidden="false" collective="false" type="model">
@@ -1940,7 +1940,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a5a-e3dc-8f29-2ab2" name="Sentry Bot" hidden="false" collective="false" type="model">
@@ -1954,7 +1954,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="375.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="310.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e93b-c113-14df-e717" name="Sturges" hidden="false" collective="false" type="model">
@@ -2045,7 +2045,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="72.0"/>
+        <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="368a-6000-0c1c-5072" name="X6-88 Courser" hidden="false" collective="false" type="model">
@@ -2586,7 +2586,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="104.0"/>
+                <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="110.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="43c4-45ff-2c93-ff6d" name="Dogmeat Scout" hidden="false" collective="false" type="model">
@@ -2795,7 +2795,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3e60-5e4b-c14d-8e11" name="Warden" hidden="false" collective="false" type="upgrade">
@@ -2809,7 +2809,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0ac7-4b7f-17b4-3bfa" name="Hunter" hidden="false" collective="false" type="upgrade">
@@ -2823,7 +2823,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5f01-09cb-7121-d73b" name="Brawler" hidden="false" collective="false" type="upgrade">
@@ -2837,7 +2837,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c320-707f-cb22-c811" name="Berserker" hidden="false" collective="false" type="upgrade">
@@ -2851,7 +2851,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7d10-7a18-2333-3ee0" name="Blitzer" hidden="false" collective="false" type="upgrade">
@@ -2865,7 +2865,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="464f-9cce-292f-2ac6" name="Bodyguard" hidden="false" collective="false" type="upgrade">
@@ -2879,7 +2879,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="25.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="708d-70ee-8e03-f1fe" name="Bruiser" hidden="false" collective="false" type="upgrade">
@@ -2893,7 +2893,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="40.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="26.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0792-c3c1-9c96-a080" name="Commander" hidden="false" collective="false" type="upgrade">
@@ -2907,7 +2907,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="55.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="36.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3a1e-d950-4997-0cf6" name="Defender" hidden="false" collective="false" type="upgrade">
@@ -2921,7 +2921,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="60.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="39.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eecf-2bd2-bcde-a27b" name="Dweller" hidden="false" collective="false" type="upgrade">
@@ -2935,7 +2935,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dd71-1f1a-1af8-520e" name="Fusilier" hidden="false" collective="false" type="upgrade">
@@ -2949,7 +2949,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a427-0b71-130f-00b9" name="Old Timer" hidden="false" collective="false" type="upgrade">
@@ -2963,7 +2963,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="17.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bf74-9c6c-ade0-b468" name="Tech" hidden="false" collective="false" type="upgrade">
@@ -2977,7 +2977,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3cff-3d44-c05c-9c8d" name="Thief" hidden="false" collective="false" type="upgrade">
@@ -2991,7 +2991,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="78dc-e98f-df8d-9237" name="Veteran" hidden="false" collective="false" type="upgrade">
@@ -3005,7 +3005,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="25.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4d0f-7704-9e88-a86b" name="Wrestler" hidden="false" collective="false" type="upgrade">
@@ -3019,7 +3019,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3049,7 +3049,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2aae-9b77-357f-71bb" name="Armorer" hidden="false" collective="false" type="unit">
@@ -3065,7 +3065,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a630-05cb-a6e5-50a4" name="Attack Dog" hidden="false" collective="false" type="upgrade">
@@ -3081,7 +3081,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0220-659e-fb22-439f" name="Basher" hidden="false" collective="false" type="upgrade">
@@ -3097,7 +3097,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b60-c8bd-0804-8eb7" name="Big Leagues" hidden="false" collective="false" type="upgrade">
@@ -3113,7 +3113,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="25.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ff8-f9f6-5f24-6d30" name="Blacksmith" hidden="false" collective="false" type="upgrade">
@@ -3129,7 +3129,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="319c-f4b9-d530-4a3f" name="Blitz" hidden="false" collective="false" type="upgrade">
@@ -3145,7 +3145,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8f20-7622-2714-e841" name="Chem Resistnt" hidden="false" collective="false" type="upgrade">
@@ -3161,7 +3161,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ef4-89a5-f796-a4f7" name="Chemist" hidden="false" collective="false" type="upgrade">
@@ -3177,7 +3177,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="27f5-5b61-fbf7-2e5d" name="Concentrated Fire" hidden="false" collective="false" type="upgrade">
@@ -3193,7 +3193,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0056-61e3-593b-d1b9" name="Ghoulish" hidden="false" collective="false" type="upgrade">
@@ -3209,7 +3209,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f8f4-c825-2d48-83fd" name="Gun Nut – Heavy" hidden="false" collective="false" type="upgrade">
@@ -3225,7 +3225,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="afc6-a008-fa58-e9c8" name="Gun Nut – Pistol" hidden="false" collective="false" type="upgrade">
@@ -3241,7 +3241,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b317-c902-0f6b-f443" name="Gun Nut – Rifle" hidden="false" collective="false" type="upgrade">
@@ -3257,7 +3257,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="626e-1ed2-30ca-395f" name="Gunslinger" hidden="false" collective="false" type="upgrade">
@@ -3273,7 +3273,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3e83-b4d4-3fa5-7f61" name="Hacker" hidden="false" collective="false" type="upgrade">
@@ -3289,7 +3289,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="30ad-e476-b242-27fb" name="Heavy Gunner" hidden="false" collective="false" type="upgrade">
@@ -3305,7 +3305,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="25.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b128-5460-8ee2-4441" name="Life Giver" hidden="false" collective="false" type="upgrade">
@@ -3321,7 +3321,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="11.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="136e-ea8d-b51e-4aee" name="Local Leader" hidden="false" collective="false" type="upgrade">
@@ -3337,7 +3337,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e56-a9dc-73c5-3c2a" name="Local Leader II" hidden="false" collective="false" type="upgrade">
@@ -3353,7 +3353,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8365-a43d-470f-a331" name="Locksmith" hidden="false" collective="false" type="upgrade">
@@ -3369,7 +3369,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="710.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ab83-8907-abe4-7560" name="Lone Wanderer" hidden="false" collective="false" type="upgrade">
@@ -3385,7 +3385,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="50.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="33.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a01d-8c6b-f3ff-8189" name="Medic" hidden="false" collective="false" type="upgrade">
@@ -3401,7 +3401,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="710.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e3b8-d4d5-2323-9807" name="Mysterious Stranger" hidden="false" collective="false" type="upgrade">
@@ -3417,7 +3417,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b5d4-ae01-fadf-0e68" name="Nerd Rage" hidden="false" collective="false" type="upgrade">
@@ -3433,7 +3433,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="385d-23d2-4f85-e6c7" name="Ninja" hidden="false" collective="false" type="upgrade">
@@ -3449,7 +3449,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0299-88ad-993a-fd23" name="Pain Train" hidden="false" collective="false" type="upgrade">
@@ -3465,7 +3465,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fb69-c0b1-eefc-daf6" name="Rad Resistant" hidden="false" collective="false" type="upgrade">
@@ -3481,7 +3481,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c34-ec92-69d1-8470" name="Refractor" hidden="false" collective="false" type="upgrade">
@@ -3497,7 +3497,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e420-78c2-7bfc-f249" name="Rifle Man" hidden="false" collective="false" type="upgrade">
@@ -3513,7 +3513,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b1be-67d6-6d8d-503c" name="Sneak" hidden="false" collective="false" type="upgrade">
@@ -3529,7 +3529,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5ce7-6e31-bce3-424c" name="Stady Aim" hidden="false" collective="false" type="upgrade">
@@ -3545,7 +3545,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e4ff-a90a-1987-c342" name="Toughness" hidden="false" collective="false" type="upgrade">
@@ -3561,7 +3561,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3587,7 +3587,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5eea-bfd5-fa44-5880" name="Silenced" hidden="false" collective="false" type="upgrade">
@@ -3601,7 +3601,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6d1c-5011-5881-4808" name="Refined" hidden="false" collective="false" type="upgrade">
@@ -3615,7 +3615,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5341-ae91-279b-5bd5" name="Spiked" hidden="false" collective="false" type="upgrade">
@@ -3629,7 +3629,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9071-fa2f-2d24-c8ce" name="Multi-Purpose" hidden="false" collective="false" type="upgrade">
@@ -3643,7 +3643,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="8.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="404d-4293-6803-887c" name="Re-Bored" hidden="false" collective="false" type="upgrade">
@@ -3657,7 +3657,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="17.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f8d9-5ba7-6de6-f604" name="Stun Pack" hidden="false" collective="false" type="upgrade">
@@ -3671,7 +3671,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a471-7ff9-4d3e-f36d" name="Thicker Plating" hidden="false" collective="false" type="upgrade">
@@ -3685,7 +3685,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a4f-a878-6fe9-c0d7" name="Mulit-Calibre" hidden="false" collective="false" type="upgrade">
@@ -3699,7 +3699,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1952-d8ac-0b63-5008" name="Long Barrel" hidden="false" collective="false" type="upgrade">
@@ -3727,7 +3727,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="50e6-436e-fca9-d9a8" name="Lightweight" hidden="false" collective="false" type="upgrade">
@@ -3741,7 +3741,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="8.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="46c3-83c0-6db8-42dd" name="Lead Lined" hidden="false" collective="false" type="upgrade">
@@ -3755,7 +3755,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac73-6e96-26a2-3568" name="Reflex Sights" hidden="false" collective="false" type="upgrade">
@@ -3769,7 +3769,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a146-60d0-026e-3697" name="Comfort Grip" hidden="false" collective="false" type="upgrade">
@@ -3783,7 +3783,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="14.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="53f4-885a-0623-71d1" name="Biocom Mesh" hidden="false" collective="false" type="upgrade">
@@ -3797,7 +3797,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3b5f-4d60-6de2-201c" name="Hardened Receiver" hidden="false" collective="false" type="upgrade">
@@ -3811,7 +3811,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="18.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7209-6f12-ffe5-1d8d" name="Heavy" hidden="false" collective="false" type="upgrade">
@@ -3825,7 +3825,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="20.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2254-bb34-87f5-85b7" name="Headlamp" hidden="false" collective="false" type="upgrade">
@@ -3839,7 +3839,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f1b4-1f6d-74c3-9754" name="Dissipating" hidden="false" collective="false" type="upgrade">
@@ -3867,7 +3867,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8f29-066e-af8e-cad6" name="Boosted Servos" hidden="false" collective="false" type="upgrade">
@@ -3881,7 +3881,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2d55-8e60-17ec-689d" name="Emergency Protocols" hidden="false" collective="false" type="upgrade">
@@ -3895,7 +3895,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="174e-610b-2f0f-5fb9" name="Bayonet" hidden="false" collective="false" type="upgrade">
@@ -3909,7 +3909,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="05ed-9834-f22b-e814" name="Improved Flexibility" hidden="false" collective="false" type="upgrade">
@@ -3923,7 +3923,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aaee-6f98-b423-8bd9" name="Arm Breaker" hidden="false" collective="false" type="upgrade">
@@ -3937,7 +3937,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb3b-ceea-8477-23a4" name="Armor Piercing Receiver" hidden="false" collective="false" type="upgrade">
@@ -3951,7 +3951,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2580-e8c5-a869-f5f8" name="Balanced" hidden="false" collective="false" type="upgrade">
@@ -3965,7 +3965,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="15.0"/>
+            <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a279-d6c9-d04a-e67d" name="Ballistic Weave" hidden="false" collective="false" type="upgrade">
@@ -8356,7 +8356,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="25.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="31.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="eb55-e9b0-eb2a-e65e" name="Missile Launcher" hidden="true" collective="false" type="upgrade">
@@ -8417,7 +8417,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="30.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="35.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8829-da94-507d-1d86" name="Gatling Laser" hidden="true" collective="false" type="upgrade">
@@ -8833,7 +8833,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="17.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="82ad-77b9-3ce2-27c8" name="Combat Shotgun" hidden="true" collective="false" type="upgrade">
@@ -9428,7 +9428,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="3.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b1d8-60fe-9ecd-bcbc" name="Gamma Gun" hidden="true" collective="false" type="upgrade">
@@ -9734,7 +9734,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="6.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="9.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="23c9-1acd-58bf-0e02" name="Indy&apos;s Freezing .44" hidden="true" collective="false" type="upgrade">
@@ -10198,7 +10198,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="2.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="38a3-4605-e76f-177b" name="Huge Club" hidden="true" collective="false" type="upgrade">
@@ -10307,7 +10307,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="21.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8a8c-ab79-1fb3-3319" name="Baseball Bat" hidden="true" collective="false" type="upgrade">
@@ -10376,7 +10376,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="2.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0e81-434f-75ac-5f7b" name="Baton" hidden="true" collective="false" type="upgrade">
@@ -10551,7 +10551,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="24.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="38.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6bec-7f72-9190-9126" name="Deathclaw Gauntlet" hidden="true" collective="false" type="upgrade">
@@ -10818,7 +10818,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="12.0"/>
+                    <cost name="Caps" costTypeId="cac8-29eb-2cba-7923" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0ae7-5dd3-5616-d20c" name="Cryo Grenade" hidden="true" collective="false" type="upgrade">

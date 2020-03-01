@@ -1,177 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b250-5e2a-716d-af42" name="Brotherhood of Steel" revision="3" battleScribeVersion="2.01" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
+<catalogue id="b250-5e2a-716d-af42" name="Brotherhood of Steel" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="f873-8f2b-85b6-73b4" name="Aspirant Goddard" hidden="false" targetId="d88c-0df3-be93-d323" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="f873-8f2b-85b6-73b4" name="Aspirant Goddard" hidden="false" collective="false" import="true" targetId="d88c-0df3-be93-d323" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3018-28b7-9c2f-a2af" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="3018-28b7-9c2f-a2af" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad98-d4fd-c46b-df9c" name="Eyebot" hidden="false" targetId="7102-556c-f9b5-d329" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="ad98-d4fd-c46b-df9c" name="Eyebot" hidden="false" collective="false" import="true" targetId="7102-556c-f9b5-d329" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="383a-4a0f-3a37-febb" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="383a-4a0f-3a37-febb" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dc36-e0d7-6a72-973b" name="Field Scribe" hidden="false" targetId="e3a8-115c-143c-262f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="dc36-e0d7-6a72-973b" name="Field Scribe" hidden="false" collective="false" import="true" targetId="e3a8-115c-143c-262f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8c94-fbff-c693-61f3" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="8c94-fbff-c693-61f3" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3ab8-3364-0580-7169" name="Lancer" hidden="false" targetId="ca1e-16ca-e6ee-e83f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="3ab8-3364-0580-7169" name="Lancer" hidden="false" collective="false" import="true" targetId="ca1e-16ca-e6ee-e83f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bc1f-9190-737e-617d" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="bc1f-9190-737e-617d" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cfcc-a838-8f71-f942" name="Knight" hidden="false" targetId="fd03-7caa-0aa7-bb9b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="cfcc-a838-8f71-f942" name="Knight" hidden="false" collective="false" import="true" targetId="fd03-7caa-0aa7-bb9b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0934-32e4-8f6e-ac3a" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="0934-32e4-8f6e-ac3a" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ce12-fc0e-48fb-de5d" name="Knight-Captain Cade" hidden="false" targetId="579a-981b-301d-e75c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="ce12-fc0e-48fb-de5d" name="Knight-Captain Cade" hidden="false" collective="false" import="true" targetId="579a-981b-301d-e75c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6555-9ebb-79d4-4de0" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="6555-9ebb-79d4-4de0" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="293c-1e06-7740-9b2f" name="Knight Patrol" hidden="false" targetId="2caa-9583-d480-f4d1" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="293c-1e06-7740-9b2f" name="Knight Patrol" hidden="false" collective="false" import="true" targetId="2caa-9583-d480-f4d1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8aca-880a-f464-8349" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="8aca-880a-f464-8349" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e525-d9e9-3313-82d3" name="Knight Patrol (Blade)" hidden="false" targetId="1e1e-0f39-96f8-d1ea" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="e525-d9e9-3313-82d3" name="Knight Patrol (Blade)" hidden="false" collective="false" import="true" targetId="1e1e-0f39-96f8-d1ea" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a1ce-3ce4-00cd-aed3" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="a1ce-3ce4-00cd-aed3" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c9cd-6e89-b3ba-1b15" name="Paladin" hidden="false" targetId="07ad-dfc6-5686-1618" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="c9cd-6e89-b3ba-1b15" name="Paladin" hidden="false" collective="false" import="true" targetId="07ad-dfc6-5686-1618" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ef5e-d20f-9ef2-6a01" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="ef5e-d20f-9ef2-6a01" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ee84-c591-6b6a-6697" name="Paladin Danse" hidden="false" targetId="10e2-5ab5-dd37-a50b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
+    <entryLink id="ee84-c591-6b6a-6697" name="Paladin Danse" hidden="false" collective="false" import="true" targetId="10e2-5ab5-dd37-a50b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9c83-8515-80d9-5b51" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="9c83-8515-80d9-5b51" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="13c3-b291-b2b9-44bf" name="Elder Maxson" hidden="false" collective="false" import="true" targetId="5748-0380-fa5d-c43e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2d12-c553-f596-af8d" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="63b8-c99d-450c-02c8" name="Field Scribe Shield" hidden="false" collective="false" import="true" targetId="1b02-9962-9056-40a4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="94d8-f89c-1ae3-fc92" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9aac-818e-2a3b-c136" name="Lancer-Captain Kells" hidden="false" collective="false" import="true" targetId="c70d-12e7-e3fb-ddd6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="af36-4d8d-ae1b-1ce2" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a474-27be-a29b-b3df" name="Knight Tech" hidden="false" collective="false" import="true" targetId="34cf-9a23-cbd7-7161" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="886a-1cdd-1152-b175" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>

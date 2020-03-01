@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5217-908e-eb66-f746" name="Robots" revision="3" battleScribeVersion="2.01" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
+<catalogue id="5217-908e-eb66-f746" name="Robots" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="4648-9808-4a27-2b4f" name="Assaultron" hidden="false" collective="false" import="true" targetId="0085-434c-ed6b-0a39" type="selectionEntry"/>
+    <entryLink id="1b25-1a4d-85c8-16d3" name="Protectron" hidden="false" collective="false" import="true" targetId="f516-0f42-93c3-4b28" type="selectionEntry"/>
+    <entryLink id="04c5-277e-767d-723e" name="Sentry Bot" hidden="false" collective="false" import="true" targetId="2a5a-e3dc-8f29-2ab2" type="selectionEntry"/>
+    <entryLink id="690d-d403-49fa-62f5" name="Eyebot" hidden="false" collective="false" import="true" targetId="7102-556c-f9b5-d329" type="selectionEntry"/>
+    <entryLink id="e01c-ff35-38a7-4f45" name="Mr Handy" hidden="false" collective="false" import="true" targetId="caf6-4530-84a9-4474" type="selectionEntry"/>
+    <entryLink id="f765-7f16-8dd5-fe4b" name="Battered Assaultron" hidden="false" collective="false" import="true" targetId="21c1-b6c2-7e47-4da2" type="selectionEntry"/>
+    <entryLink id="0e1d-4717-6de1-470b" name="Battered Protectron" hidden="false" collective="false" import="true" targetId="374e-5d38-6197-e311" type="selectionEntry"/>
+    <entryLink id="857c-825c-ed6a-56c9" name="Battered Sentry Bot" hidden="false" collective="false" import="true" targetId="a7df-65fc-ea7c-07b0" type="selectionEntry"/>
+  </entryLinks>
   <rules>
     <rule id="d8b4-0096-6d4e-4208" name="Robots" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>
 1. Robots can not use Power Armor.
 
@@ -17,56 +22,4 @@
 4. Robots can have damage removed using a Robot Repair Kit.</description>
     </rule>
   </rules>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
-  <entryLinks>
-    <entryLink id="4648-9808-4a27-2b4f" name="Assaultron" hidden="false" targetId="0085-434c-ed6b-0a39" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="1b25-1a4d-85c8-16d3" name="Protectron" hidden="false" targetId="f516-0f42-93c3-4b28" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="04c5-277e-767d-723e" name="Sentry Bot" hidden="false" targetId="2a5a-e3dc-8f29-2ab2" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="690d-d403-49fa-62f5" name="Eyebot" hidden="false" targetId="7102-556c-f9b5-d329" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="e01c-ff35-38a7-4f45" name="Mr Handy" hidden="false" targetId="caf6-4530-84a9-4474" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-  </entryLinks>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>

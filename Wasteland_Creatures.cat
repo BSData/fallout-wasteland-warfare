@@ -1,68 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aa3a-939f-8eca-9ad0" name="Wasteland Creatures" revision="3" battleScribeVersion="2.01" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
+<catalogue id="aa3a-939f-8eca-9ad0" name="Wasteland Creatures" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="c40e-8abd-3798-696b" name="Deathclaw" hidden="false" collective="false" import="true" targetId="a147-1a6a-3448-d6b7" type="selectionEntry"/>
+    <entryLink id="a08c-c1f8-1bcb-d768" name="Alien" hidden="false" collective="false" import="true" targetId="39c6-51e7-eb67-6cb3" type="selectionEntry"/>
+    <entryLink id="92ad-f2e0-bece-9cc8" name="Feral Ghoul" hidden="false" collective="false" import="true" targetId="e3e1-d7b4-a02a-0248" type="selectionEntry"/>
+    <entryLink id="50a2-ae82-abae-11d9" name="Radroach Swam" hidden="false" collective="false" import="true" targetId="3632-8633-2fb1-5eb2" type="selectionEntry"/>
+    <entryLink id="2384-a201-f76e-ba2e" name="Radscorpion" hidden="false" collective="false" import="true" targetId="664b-a120-82ff-0164" type="selectionEntry"/>
+    <entryLink id="c8c3-ba37-5657-a6cf" name="Bloated Glowing One" hidden="false" collective="false" import="true" targetId="2616-9a83-9949-3eb2" type="selectionEntry"/>
+    <entryLink id="fe04-dd2f-4ce7-1501" name="Young Deathclaw" hidden="false" collective="false" import="true" targetId="0c38-5c74-8c85-2935" type="selectionEntry"/>
+    <entryLink id="0e47-e700-ddaf-fde2" name="Putrid Glowing One" hidden="false" collective="false" import="true" targetId="ec15-0d65-672c-f16c" type="selectionEntry"/>
+    <entryLink id="85cd-d98e-d1a0-9e41" name="Glowing Radroach Swarm" hidden="false" collective="false" import="true" targetId="fe30-5d6c-8c02-3c62" type="selectionEntry"/>
+    <entryLink id="d84c-98ad-17b2-deb9" name="Weak Feral Ghoul" hidden="false" collective="false" import="true" targetId="71a7-a725-2118-fbb7" type="selectionEntry"/>
+    <entryLink id="9b52-7017-c80c-0d42" name="Mole Rat" hidden="false" collective="false" import="true" targetId="b141-d39d-f9df-0389" type="selectionEntry"/>
+  </entryLinks>
   <rules>
     <rule id="fa38-67be-184a-2c30" name="Creatures" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>
 1. Creatures cannot use Power Armor.
 
 2. Creatures cannot use Food &amp; Drink, Alcohol or Chems.</description>
     </rule>
   </rules>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
-  <entryLinks>
-    <entryLink id="c40e-8abd-3798-696b" name="Deathclaw" hidden="false" targetId="a147-1a6a-3448-d6b7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="a08c-c1f8-1bcb-d768" name="Alien" hidden="false" targetId="39c6-51e7-eb67-6cb3" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="92ad-f2e0-bece-9cc8" name="Feral Ghoul" hidden="false" targetId="e3e1-d7b4-a02a-0248" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="50a2-ae82-abae-11d9" name="Radroach Swam" hidden="false" targetId="3632-8633-2fb1-5eb2" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="2384-a201-f76e-ba2e" name="Radscorpion" hidden="false" targetId="664b-a120-82ff-0164" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-  </entryLinks>
-  <sharedSelectionEntries/>
-  <sharedSelectionEntryGroups/>
-  <sharedRules/>
-  <sharedProfiles/>
 </catalogue>

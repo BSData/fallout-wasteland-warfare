@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0765-f692-cf74-940d" name="Super Mutants" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0765-f692-cf74-940d" name="Super Mutants" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="fa0c-351b-4eb5-1a9d" name="zU Aviator" hidden="false" collective="false" import="true" targetId="a225-3fb8-2e42-80ea" type="selectionEntry">
+    <entryLink id="fa0c-351b-4eb5-1a9d" name="Overlord" hidden="false" collective="false" import="true" targetId="6917-39db-bce7-b5bd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="185d-609f-1a8d-b804" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="d92a-9b1a-9bb3-df3c" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5229-56f3-208b-d76d" name="zU Brute" hidden="false" collective="false" import="true" targetId="9ca5-9c82-bc43-182d" type="selectionEntry">
+    <entryLink id="5229-56f3-208b-d76d" name="Brute" hidden="false" collective="false" import="true" targetId="f1cf-16fb-79a8-a85e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7a9f-5841-1584-b120" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="504f-1cec-8f33-7984" name="zU Mutant Hound" hidden="false" collective="false" import="true" targetId="4b6d-0742-ca16-e9ad" type="selectionEntry">
+    <entryLink id="504f-1cec-8f33-7984" name="Hammer" hidden="false" collective="false" import="true" targetId="d0c8-c0a0-d95d-33ac" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5f79-6a1b-a656-dbed" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="51b1-cb9d-c1ff-b657" name="zU Super Mutant" hidden="false" collective="false" import="true" targetId="12ba-3dd9-1bad-6db1" type="selectionEntry">
+    <entryLink id="51b1-cb9d-c1ff-b657" name="Mutant Hound" hidden="false" collective="false" import="true" targetId="cbba-2f5e-72b8-8e93" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3576-ee6f-13c7-e703" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="17f1-0de0-0a8b-7510" name="zU Behemoth" hidden="false" collective="false" import="true" targetId="ca19-95db-6729-7b16" type="selectionEntry">
+    <entryLink id="17f1-0de0-0a8b-7510" name="Suicider" hidden="false" collective="false" import="true" targetId="0e87-b354-579e-fd28" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5db8-1f7c-f678-52d9" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
@@ -31,37 +31,37 @@
         <categoryLink id="c07e-38c9-341e-d995" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5b3b-918c-8d12-407e" name="zU Hammer" hidden="false" collective="false" import="true" targetId="f435-a340-401c-e71e" type="selectionEntry">
+    <entryLink id="5b3b-918c-8d12-407e" name="Super Mutant" hidden="false" collective="false" import="true" targetId="4b2c-b6ef-cfed-d762" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f24c-a58c-d8c8-64b1" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="a49f-c82a-cfbe-576e" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2929-08ae-c836-caa0" name="zU Master" hidden="false" collective="false" import="true" targetId="71a9-c7d8-bd40-dfdd" type="selectionEntry">
+    <entryLink id="2929-08ae-c836-caa0" name="Master" hidden="false" collective="false" import="true" targetId="67c1-1555-30ec-8b3e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f6e0-3332-d99c-35c8" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="ab7c-1e40-c10d-eafd" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0d78-7ca9-6604-8fce" name="zU Mutant Hound Fiend" hidden="false" collective="false" import="true" targetId="ab1d-5700-35fd-86d1" type="selectionEntry">
+    <entryLink id="0d78-7ca9-6604-8fce" name="Fist" hidden="false" collective="false" import="true" targetId="4d88-0a2f-0daa-f048" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5be7-7dbf-2588-79df" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="646f-391d-6c1e-609c" name="zU Suicider" hidden="false" collective="false" import="true" targetId="7dec-a154-7c5d-e7d4" type="selectionEntry">
+    <entryLink id="646f-391d-6c1e-609c" name="Mutant Hound Fiend" hidden="false" collective="false" import="true" targetId="f53f-6ff1-d7df-befc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5726-29ff-d490-4138" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6735-effc-2a7f-5862" name="Fist" hidden="false" collective="false" import="true" targetId="ce9c-ca8b-c142-f4e8" type="selectionEntry">
+    <entryLink id="6735-effc-2a7f-5862" name="Skirmisher" hidden="false" collective="false" import="true" targetId="051e-6c8f-f22f-ac76" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="47f9-e897-c6a1-2419" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="2051-5574-0070-af3f" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9e97-ac20-5ca1-b7b6" name="Overlord" hidden="false" collective="false" import="true" targetId="7059-6d34-8fa0-075d" type="selectionEntry">
+    <entryLink id="9e97-ac20-5ca1-b7b6" name="Aviator" hidden="false" collective="false" import="true" targetId="5510-5cd9-5e0f-1967" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1f43-82df-de32-8bb2" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+        <categoryLink id="4883-e663-1383-0d04" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="191f-a152-5cda-f57a" name="Skirmisher" hidden="false" collective="false" import="true" targetId="4dcc-9edb-067d-bc9c" type="selectionEntry">
+    <entryLink id="191f-a152-5cda-f57a" name="Behemoth" hidden="false" collective="false" import="true" targetId="8cf8-976c-b31d-875b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f3fa-bee6-430b-8b65" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
@@ -84,4 +84,7 @@
 4. Food counts as cooked when eaten.</description>
     </rule>
   </rules>
+  <catalogueLinks>
+    <catalogueLink id="373a-7557-5ddb-0367" name="Library-Mutants" targetId="0c83-6163-318f-f488" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>

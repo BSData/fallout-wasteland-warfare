@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5be5-3ff1-79ce-667a" name="Institute" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5be5-3ff1-79ce-667a" name="Institute" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="ee84-c591-6b6a-6697" name="A-2018" hidden="false" collective="false" import="true" targetId="cc14-f757-573d-0708" type="selectionEntry">
+    <entryLink id="ee84-c591-6b6a-6697" name="Conrad Kellogg" hidden="false" collective="false" import="true" targetId="8b0f-9670-eca8-47f8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9c83-8515-80d9-5b51" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1179-b1b7-209d-691d" name="Battered Gen 1 Synth" hidden="false" collective="false" import="true" targetId="2c09-a96b-605b-2127" type="selectionEntry">
+    <entryLink id="1179-b1b7-209d-691d" name="Engineer" hidden="false" collective="false" import="true" targetId="f894-747c-8704-0ae7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b5d5-606d-184b-9c1e" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="818b-4754-e7ef-7aee" name="Conrad Kellogg" hidden="false" collective="false" import="true" targetId="7ff8-ddd6-4902-ea23" type="selectionEntry">
+    <entryLink id="818b-4754-e7ef-7aee" name="Patroller" hidden="false" collective="false" import="true" targetId="41d5-c54f-0708-b332" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="223e-52fd-03f5-7124" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="70f4-7d76-f429-a71d" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e11-5310-3dbe-197f" name="Courser" hidden="false" collective="false" import="true" targetId="286f-a20c-115a-d864" type="selectionEntry">
+    <entryLink id="1e11-5310-3dbe-197f" name="Trooper" hidden="false" collective="false" import="true" targetId="c3d0-c3d6-1de9-7d1e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="25b6-4fd3-20fe-e991" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3bec-a7fb-f694-4bea" name="Engineer" hidden="false" collective="false" import="true" targetId="9d5e-114a-f744-7b92" type="selectionEntry">
+    <entryLink id="3bec-a7fb-f694-4bea" name="Z2-47" hidden="false" collective="false" import="true" targetId="64ee-1b58-9a61-8471" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7560-b27c-bd17-c041" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+        <categoryLink id="c1b6-4bb4-91e2-21c9" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4016-1304-3564-a621" name="Gen 1 Synth" hidden="false" collective="false" import="true" targetId="2169-694b-646b-254e" type="selectionEntry">
+    <entryLink id="4016-1304-3564-a621" name="Scientist" hidden="false" collective="false" import="true" targetId="397b-c871-c134-5775" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6dfb-bed5-2c73-93ee" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c3e2-f3cb-732d-f846" name="Patroller" hidden="false" collective="false" import="true" targetId="7aab-f832-c366-3e48" type="selectionEntry">
+    <entryLink id="c3e2-f3cb-732d-f846" name="Gen 1 Synth" hidden="false" collective="false" import="true" targetId="2e5e-3d08-3f65-52ca" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ce82-9fe3-d8a3-a9bc" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="66d5-446d-a1c6-4217" name="Scientist" hidden="false" collective="false" import="true" targetId="083f-2fe8-1849-b639" type="selectionEntry">
+    <entryLink id="66d5-446d-a1c6-4217" name="Battered Gen 1 Synth" hidden="false" collective="false" import="true" targetId="a199-58cb-4a44-f08a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4e88-c7d1-2dac-4ba1" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1808-eb24-e493-9207" name="Trooper" hidden="false" collective="false" import="true" targetId="76e0-6260-4711-1008" type="selectionEntry">
+    <entryLink id="1808-eb24-e493-9207" name="Courser" hidden="false" collective="false" import="true" targetId="0b98-13bf-1460-30ec" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9cf2-e8d0-0cbf-5a48" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
@@ -51,10 +51,13 @@
         <categoryLink id="2de3-fa32-24a4-8ce2" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e8b-74cf-27f6-ec1c" name="Z2-47" hidden="false" collective="false" import="true" targetId="cfcc-fa18-d379-7d92" type="selectionEntry">
+    <entryLink id="1e8b-74cf-27f6-ec1c" name="A-2018" hidden="false" collective="false" import="true" targetId="8319-acf4-7b23-1a41" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="86e9-0078-b256-ee9f" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="7977-7a8c-5771-dc14" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="e06c-6f79-2728-7ae1" name="Library-institute" targetId="c7e7-85e7-bc3a-b853" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>

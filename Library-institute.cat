@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c7e7-85e7-bc3a-b853" name="Library-institute" revision="1" battleScribeVersion="2.03" authorName="Sakar" library="true" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="8319-acf4-7b23-1a41" name="A-2018" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b12f-8202-1472-55f0" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2f96-4c03-b02b-0005" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="73a4-edf9-ed25-37f3" name="Armor" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3fc8-710f-6707-e966" name="Armor" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="73bf-1062-37f0-3b7e" name="Heavy Synth Armor" hidden="false" collective="false" import="true" targetId="99fa-8701-42a4-ceaa" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="e215-c83f-c907-c062" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="0a1a-c040-68f3-50d0" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6869-2b34-c7e6-77de" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="ff51-6954-ae66-ee9d" name="Institute Laser Rifle" hidden="false" collective="false" import="true" targetId="0f9e-02a6-eb54-2985" type="selectionEntry"/>
+                    <entryLink id="a66e-2f11-52ec-dc66" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="63a4-1574-6ac8-8b39" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="718e-861b-08e6-9e72" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                    <entryLink id="f6ef-3d70-292c-f0c5" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="c197-4746-45a6-53fa" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="6c25-1d77-e38c-fccc" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="2b2a-7b10-ce04-5e60" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="716a-29fe-db1a-3ef2" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="af51-0273-097c-7901" name="Synth Relay Grenade" hidden="false" collective="false" import="true" targetId="45c0-490b-268c-0c66" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="8c6b-0b9a-72f5-f5a3" name="Heavy" hidden="false" collective="false" import="true" targetId="9cd8-2c88-b6f1-cefa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="25e5-09e0-acfa-33ee" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="88a7-394c-75d0-1aee" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="da95-bf83-f66e-c5a0" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6bae-e239-ef4f-8ef3" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="4ed1-f149-1d20-6dab" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="107.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a199-58cb-4a44-f08a" name="Battered Gen 1 Synth" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="74d2-8c58-6700-19bb" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5a3e-9aa8-b509-601e" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="2284-b509-6752-1d69" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="dddb-e20f-e592-3bca" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ed1e-5382-477e-94aa" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="f64b-6678-370c-df3d" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="1893-7e81-9edd-77eb" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="67eb-9397-c310-9503" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="c841-2307-4ace-801e" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dbd6-070c-88ce-3218" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2874-a4e0-ec6f-b842" name="Cleanroom Suit" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b0f-9670-eca8-47f8" name="Conrad Kellogg" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daad-f941-2dbf-0139" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="70c7-7883-db2e-7497" name="Kellogg&apos;s Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88c3-e9f5-b409-dbe4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7da-6da9-a271-1ade" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="254e-c4d4-b1de-84e2" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1e22-6cfc-2512-b9a7" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="09eb-b883-5ef9-cc72" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="5654-ec9e-6295-2a59" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d64e-84ad-38d4-1c41" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="8766-5520-70cb-4b8e" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="ad34-f136-d2d3-cc36" name="Combat Rifle" hidden="false" collective="false" import="true" targetId="987b-727b-6c88-b941" type="selectionEntry"/>
+                    <entryLink id="c6cd-9110-ea70-ff70" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="2eaa-b522-293d-3e7a" name="Double-Barrel Shotgun" hidden="false" collective="false" import="true" targetId="b3f4-0a3a-5f41-fff5" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="9109-f312-8739-f0b7" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="5933-1324-de72-3a53" name=".44 Revolver" hidden="false" collective="false" import="true" targetId="4cf7-23e5-7584-8e76" type="selectionEntry"/>
+                    <entryLink id="b24a-de1b-09fd-4470" name="10mm Pistol" hidden="false" collective="false" import="true" targetId="8011-0e9d-7ce5-8a46" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="4dc0-771b-860f-a494" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="4722-b4a5-f1b7-39f5" name="Synth Relay Grenade" hidden="false" collective="false" import="true" targetId="45c0-490b-268c-0c66" type="selectionEntry"/>
+                    <entryLink id="cc9e-cce5-25fb-03aa" name="Fragmentation Grenade" hidden="false" collective="false" import="true" targetId="9590-49a4-20f1-0cee" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="ab9f-94f8-6280-bdc8" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="23ab-1e56-617d-349a" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="f52c-51e9-8bcb-1f32" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="3088-433f-56e4-5570" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="e225-e896-6978-6bd4" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="87.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b98-13bf-1460-30ec" name="Courser" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fff4-6d13-1d95-6f97" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="eafc-9a67-ad04-667c" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="271d-0908-48d2-fa9e" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ceec-38d6-6328-20c5" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="52a8-30b1-b809-da2a" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="92ff-8ed5-119a-6c48" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="46ad-a3c5-7563-e495" name="Combat Rifle" hidden="false" collective="false" import="true" targetId="987b-727b-6c88-b941" type="selectionEntry"/>
+                    <entryLink id="125f-392e-f94a-26f5" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="700d-2933-cbe9-93d9" name="Gauss Rifle" hidden="false" collective="false" import="true" targetId="81d8-4e7a-87a2-c854" type="selectionEntry"/>
+                    <entryLink id="26f3-2aa9-5d69-10a4" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="b666-398f-63b3-796b" type="selectionEntry"/>
+                    <entryLink id="e58a-35bb-14a3-ed36" name="Institute Laser Rifle" hidden="false" collective="false" import="true" targetId="0f9e-02a6-eb54-2985" type="selectionEntry"/>
+                    <entryLink id="6dee-76ff-e435-bbd2" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="78d6-d6cd-3481-e002" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="e662-e4a8-86cb-fd1e" name="Gamma Gun" hidden="false" collective="false" import="true" targetId="b1d8-60fe-9ecd-bcbc" type="selectionEntry"/>
+                    <entryLink id="5440-4c3c-8ab1-d8a9" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                    <entryLink id="b0b8-7fce-f6d0-ff57" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="b820-b4a9-af2c-0067" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="702d-b5cf-c4cc-5120" name="Synth Relay Grenade" hidden="false" collective="false" import="true" targetId="45c0-490b-268c-0c66" type="selectionEntry"/>
+                    <entryLink id="0921-11b8-c992-8550" name="Fragmentation Grenade" hidden="false" collective="false" import="true" targetId="9590-49a4-20f1-0cee" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="11be-3622-3e73-187c" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="8711-b26d-789a-519b" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="0619-f273-f04d-17bf" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="b1d6-c34c-3abe-cc52" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4e82-1d57-f26d-56c0" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="98a0-5d15-08db-98e0" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="16c5-f3f8-ac27-1240" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="0d95-ec2d-5bed-ce0f" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="138.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f894-747c-8704-0ae7" name="Engineer" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fe77-3425-272c-c87b" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6f04-e021-1d4e-6c4f" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="00fe-83db-6823-8f8f" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="72f7-0d4b-cd03-4bee" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7803-e829-ce8c-bf7d" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="b39d-1aef-3c02-2eed" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="9496-4c2e-a60a-0de3" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="6075-0c31-46c6-1d2e" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="dca6-7f8c-9c0f-c9fa" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                    <entryLink id="0464-3010-06fc-870f" name="Pipe Wrench" hidden="false" collective="false" import="true" targetId="24cb-99db-a42d-3134" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="cee8-0c3b-3484-2c7d" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="83cf-fe6f-1bcc-aab8" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="b205-9ec4-bffd-e6bd" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="e9c9-40ec-21a2-34f4" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="9b4f-8505-6e91-2375" name="Cleanroom Suit" hidden="false" collective="false" import="true" targetId="2874-a4e0-ec6f-b842" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d5-f347-53cc-90e7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f85-70d0-aaac-1767" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="edba-4440-a63e-b92c" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e5e-3d08-3f65-52ca" name="Gen 1 Synth" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bd64-8546-424e-641c" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="afe6-ed0c-ee28-400d" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="80f0-a44c-353c-1453" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="98ec-7f95-ffd5-9f8f" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e93d-009d-4bcc-edb6" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="1202-7756-0d93-5b39" name="Institute Laser Rifle" hidden="false" collective="false" import="true" targetId="0f9e-02a6-eb54-2985" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="0da6-0897-8a64-2e84" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="7acc-2d02-b5fa-c017" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="e3d2-138c-6d4e-d341" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="49b2-178a-3355-0774" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="58a9-5848-2125-3b7d" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="061c-38b0-d021-1c07" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8ae5-b5e8-2f93-9cce" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41d5-c54f-0708-b332" name="Patroller" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="91d1-4211-b0d6-b075" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c442-f1e3-b3fb-2569" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="2d1a-34ad-eebc-4f8a" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f07e-853e-1c2c-ec3c" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b4e1-d6b2-8a08-a0ab" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="cd8d-7471-bb0e-4fa8" name="Institute Laser Rifle" hidden="false" collective="false" import="true" targetId="0f9e-02a6-eb54-2985" type="selectionEntry"/>
+                    <entryLink id="a35f-8eac-9f76-1181" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="fe41-5454-b29a-978d" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="1bc6-0305-1dcd-95a3" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                    <entryLink id="6473-de3e-7574-098c" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="e444-8f43-7aae-8b9b" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="21ac-1ec1-c1c4-169e" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="633d-f6af-3815-381f" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="2577-2696-4bd1-5f1e" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="5231-5434-38c4-fec7" name="Synth Relay Grenade" hidden="false" collective="false" import="true" targetId="45c0-490b-268c-0c66" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="7fd9-3f02-87b0-9f2a" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="02db-c455-b5fe-5ec3" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="3cb8-b454-d99a-2885" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="4580-2b8a-c54a-4163" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="a32f-4259-14bb-4a67" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="77.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="397b-c871-c134-5775" name="Scientist" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5217-0fdd-9891-eadd" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="937c-f691-9439-19ca" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="d93e-ef91-8d20-a0b0" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2f0e-a3af-d94f-8067" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1d12-4df3-b698-cff5" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="1348-7ee3-01bc-ab27" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                    <entryLink id="08c7-cd17-1942-a6a7" name="Gamma Gun" hidden="false" collective="false" import="true" targetId="b1d8-60fe-9ecd-bcbc" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6cd3-d5ee-3436-85e6" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="d133-1059-2eb5-5a0e" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="619e-6a8e-656e-e96e" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="50e3-a36d-bdbc-b0c2" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0ceb-46c3-3e89-d9c5" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="d42f-394c-7e68-b885" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="6484-bc45-c228-498e" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="024c-b8ec-9432-8258" name="Cleanroom Suit" hidden="false" collective="false" import="true" targetId="2874-a4e0-ec6f-b842" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="425b-489e-4508-3997" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e9e-aed0-903a-e277" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4fd2-0cad-3b4e-22dc" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3d0-c3d6-1de9-7d1e" name="Trooper" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a6a-e37e-900a-5884" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6866-cacf-b49d-dc53" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="2baa-e9bb-b89c-76a7" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f2e5-cfc8-a91f-e60d" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9868-7434-79e6-01e3" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="c1b8-5512-c201-cd66" name="Institute Laser Rifle" hidden="false" collective="false" import="true" targetId="0f9e-02a6-eb54-2985" type="selectionEntry"/>
+                    <entryLink id="1dd0-0924-6183-130c" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="9161-9373-022c-84cf" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="8cd5-ed45-4976-4982" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                    <entryLink id="f9bf-2406-b53b-ca58" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f6e1-3ae1-d8ff-45f5" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="5155-f3b3-e966-2292" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="c8f0-4656-d98a-9ea1" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="93ee-c158-6b24-799c" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="c475-48cf-62f1-954f" name="Synth Relay Grenade" hidden="false" collective="false" import="true" targetId="45c0-490b-268c-0c66" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="900d-b0f1-06c2-ad54" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8fa8-e72f-566c-d6a2" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="ccf1-af6a-4c87-f6d5" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="6922-3058-5c06-3179" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="5135-7be4-5443-04a2" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="88.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64ee-1b58-9a61-8471" name="Z2-47" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b042-2c96-0548-9a33" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b61-6333-ad1c-16da" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8b21-ee9a-382a-b4cb" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="9c72-db3e-f233-3196" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ff66-9145-9fd9-88bb" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ec5b-fc42-2327-13bd" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="553a-26df-c7e2-2587" name="Institute Laser Pistol" hidden="false" collective="false" import="true" targetId="ba78-b2f4-7880-9bf5" type="selectionEntry"/>
+                    <entryLink id="48be-77f7-52bb-4e07" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                    <entryLink id="9bc8-a5dd-9dec-328d" name="Gamma Gun" hidden="false" collective="false" import="true" targetId="b1d8-60fe-9ecd-bcbc" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3798-1572-d4a4-274e" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="c98a-fef0-ecbf-0117" name="Baton" hidden="false" collective="false" import="true" targetId="0e81-434f-75ac-5f7b" type="selectionEntry"/>
+                    <entryLink id="6bb8-f697-4871-eba5" name="Stun Baton" hidden="false" collective="false" import="true" targetId="21e3-938f-fea5-2d84" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="643c-8d84-e76e-2415" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="1c91-abc0-fd87-eedc" name="Synth Relay Grenade" hidden="false" collective="false" import="true" targetId="45c0-490b-268c-0c66" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="aa75-218b-6370-d8cc" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8987-2813-29fe-9a71" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="b728-22b0-a8bf-cf3a" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="2327-be47-fab2-1642" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="1d8f-7648-cf45-4c11" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="118.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

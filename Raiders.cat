@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5034-1ef0-5d1e-6d63" name="Raiders" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5034-1ef0-5d1e-6d63" name="Raiders" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="ee84-c591-6b6a-6697" name="Ack Ack" hidden="false" collective="false" import="true" targetId="de98-95d3-7526-b1d0" type="selectionEntry">
+    <entryLink id="ee84-c591-6b6a-6697" name="Psycho" hidden="false" collective="false" import="true" targetId="ad0d-a77c-92eb-4295" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9c83-8515-80d9-5b51" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8a68-7055-7f82-d742" name="Avery" hidden="false" collective="false" import="true" targetId="b27e-b414-e8b6-f672" type="selectionEntry">
+    <entryLink id="8a68-7055-7f82-d742" name="Psycho Outlaw" hidden="false" collective="false" import="true" targetId="233c-cd68-29e0-3717" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fc98-acc4-9509-d0b1" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="e7cf-c17c-efaa-5cc6" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1179-b1b7-209d-691d" name="Dog" hidden="false" collective="false" import="true" targetId="de17-e7ab-2531-0255" type="selectionEntry">
@@ -16,45 +16,48 @@
         <categoryLink id="b5d5-606d-184b-9c1e" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="80aa-d824-d08e-ffe3" name="Psycho" hidden="false" collective="false" import="true" targetId="07e1-a0bf-9fc9-12df" type="selectionEntry">
+    <entryLink id="80aa-d824-d08e-ffe3" name="Scavver" hidden="false" collective="false" import="true" targetId="d522-7918-d5ca-fa88" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cbba-b32a-cc0d-d026" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8119-39de-8f1e-f8a9" name="Psycho Outlaw" hidden="false" collective="false" import="true" targetId="7863-8498-f3ca-4f0a" type="selectionEntry">
+    <entryLink id="8119-39de-8f1e-f8a9" name="Raider" hidden="false" collective="false" import="true" targetId="26d1-af40-6e20-8f8b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2324-883c-d1bf-34a9" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8924-228e-ddb9-9b25" name="Raider" hidden="false" collective="false" import="true" targetId="4dbf-75df-081b-002d" type="selectionEntry">
+    <entryLink id="8924-228e-ddb9-9b25" name="Sinjin" hidden="false" collective="false" import="true" targetId="7bb3-d9cb-9508-1e6b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6831-6d8c-4d47-c736" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+        <categoryLink id="c07e-220a-1bc8-a40a" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b25-8a39-65a1-4165" name="Raider Outlaw" hidden="false" collective="false" import="true" targetId="d0fb-ba81-20eb-8f21" type="selectionEntry">
+    <entryLink id="0b25-8a39-65a1-4165" name="Veteran Raider" hidden="false" collective="false" import="true" targetId="8807-a4ea-d734-71c0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8248-6e7c-e398-6cf2" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c6d8-3b6f-d2ff-130b" name="Scavver" hidden="false" collective="false" import="true" targetId="10d0-3568-1839-e869" type="selectionEntry">
+    <entryLink id="c6d8-3b6f-d2ff-130b" name="Scavver Outlaw" hidden="false" collective="false" import="true" targetId="df3e-cdc4-624f-a9b9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2c9d-9175-4a04-eeed" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e417-f394-1a1c-e64f" name="Scavver Outlaw" hidden="false" collective="false" import="true" targetId="7020-c470-8022-60c6" type="selectionEntry">
+    <entryLink id="e417-f394-1a1c-e64f" name="Raider Outlaw" hidden="false" collective="false" import="true" targetId="f4bb-9628-2a2b-3038" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e711-9e2b-971d-0260" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="178f-ac9a-fcab-bc71" name="Sinjin" hidden="false" collective="false" import="true" targetId="5f48-e435-e4b2-71ff" type="selectionEntry">
+    <entryLink id="178f-ac9a-fcab-bc71" name="Avery" hidden="false" collective="false" import="true" targetId="04f3-5edf-c0dc-1271" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8aa6-1cec-20a4-cf31" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5da5-7b17-90b5-d79a" name="Veteran Raider" hidden="false" collective="false" import="true" targetId="ccd0-fd8a-ad4c-65c2" type="selectionEntry">
+    <entryLink id="5da5-7b17-90b5-d79a" name="Ack Ack" hidden="false" collective="false" import="true" targetId="6c00-9566-4def-008d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="40e5-7e73-e059-9860" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+        <categoryLink id="4d00-b903-d647-fe25" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="4861-5813-59f8-96f0" name="Library-Raiders" targetId="0a48-e296-7939-3174" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>

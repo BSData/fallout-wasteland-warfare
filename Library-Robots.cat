@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="df2c-c92f-e22d-8a80" name="Library-Robots" revision="1" battleScribeVersion="2.03" authorName="Sakar" library="true" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="9c2e-3a43-3694-5f12" name="Assaultron" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="96d1-88c5-c57a-fadd" name="Assaultron Swipe" hidden="false" collective="false" import="true" targetId="f101-7439-0bb1-9372" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5826-7e48-8a16-6989" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5a1-a7ba-f4cf-ba32" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6d24-7fa5-566d-c674" name="Assaultron Head Laser" hidden="false" collective="false" import="true" targetId="aff0-5aa5-f69e-3d4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a94-7cb0-a4bb-449b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b13-529f-1eda-c127" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="320.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aff0-5aa5-f69e-3d4c" name="Assaultron Head Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f101-7439-0bb1-9372" name="Assaultron Swipe" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd17-06a2-f0a7-4ed4" name="Battered Assaultron" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="8e62-7692-6268-73e5" name="Assaultron Swipe" hidden="false" collective="false" import="true" targetId="f101-7439-0bb1-9372" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b0-0fba-5306-5ae7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="790e-5143-f2ef-78cf" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="be79-d2fb-4aa6-faf1" name="Battered Assaultron Head Laser" hidden="false" collective="false" import="true" targetId="74cd-7353-9dbd-fdbb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c073-c109-0bad-dbe5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a6f-b24e-15ba-71fa" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74cd-7353-9dbd-fdbb" name="Battered Assaultron Head Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6530-2a94-0aee-f7ab" name="Battered Protectron" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="0f55-f397-1b2c-837a" name="Protectron Head Laser" hidden="false" collective="false" import="true" targetId="9b20-5b13-e332-c4b2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41ac-025e-181f-b382" name="Battered Sentry Bot" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="46b7-718c-4150-0c77" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2697-c009-b9cd-d66c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13f-8089-7199-48a1" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6c36-f343-a0be-0068" name="Empty Minigun" hidden="false" collective="false" import="true" targetId="791b-4453-7934-95f2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="049c-e1ca-7350-abe5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a164-a313-b77e-86ec" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="791b-4453-7934-95f2" name="Empty Minigun" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7bf9-5eff-fdb6-4014" name="Protectron" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="54af-a698-0df5-8915" name="Protectron Head Laser" hidden="false" collective="false" import="true" targetId="9b20-5b13-e332-c4b2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5afa-06fb-bb7e-2dfe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c846-af50-1ae5-f601" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b20-5b13-e332-c4b2" name="Protectron Head Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d828-e3f2-946d-35c2" name="Sentry Bot" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="961c-84e0-b901-8bf2" name="Minigun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29df-b978-b3ec-0ec3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7feb-1540-296f-b0d7" type="min"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="786d-a69f-9536-8cf1" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e545-3fe6-3921-8ef5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aaf-ff21-3e38-6436" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="310.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0ab-c921-1463-8c93" name="The Mechanist" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de67-1cd4-7821-8637" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b3a2-bbf0-96e8-9232" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="d499-f7e9-b07a-40c3" name="Equipment" hidden="false" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup"/>
+        <entryLink id="cdd1-e497-d13c-6bf2" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="2870-5494-228f-0e1d" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="145.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

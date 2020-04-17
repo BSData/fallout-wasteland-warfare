@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ed47-c664-dac8-501c" name="Survivors" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ed47-c664-dac8-501c" name="Survivors" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="8bac-63d3-a510-90e6" name="zU Cait" hidden="false" collective="false" import="true" targetId="b2ba-ae8d-88b7-b731" type="selectionEntry">
+    <entryLink id="8bac-63d3-a510-90e6" name="Dogmeat" hidden="false" collective="false" import="true" targetId="d8ab-a6d3-110d-d863" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="76b4-dac0-8d2c-35b9" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
@@ -11,7 +11,7 @@
         <categoryLink id="c559-f3dd-2e76-f84c" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c105-5a30-675b-1865" name="zU Settler" hidden="false" collective="false" import="true" targetId="1610-e4d1-feee-b817" type="selectionEntry">
+    <entryLink id="c105-5a30-675b-1865" name="Settler" hidden="false" collective="false" import="true" targetId="6546-a608-a38e-3449" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bdb4-e335-e23c-7bf1" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
@@ -21,39 +21,39 @@
         <categoryLink id="da0d-7b5c-b34e-fcb6" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f1ad-4340-4214-421b" name="zU Mama Murphy" hidden="false" collective="false" import="true" targetId="f7fa-db2d-c165-b7c8" type="selectionEntry">
+    <entryLink id="f1ad-4340-4214-421b" name="Mama Murphy" hidden="false" collective="false" import="true" targetId="48c4-4dca-1fb4-b237" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="77d5-7741-5f76-db6c" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3260-1458-c7f3-afdc" name="zU Minuteman" hidden="false" collective="false" import="true" targetId="e9b7-eba5-3916-6ab6" type="selectionEntry">
+    <entryLink id="3260-1458-c7f3-afdc" name="Scavenger" hidden="false" collective="false" import="true" targetId="3209-160f-25ee-9d7c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0203-963f-56cd-7e18" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="aaf6-5649-5ea4-49c4" name="zU Piper" hidden="false" collective="false" import="true" targetId="1794-8f87-d6fa-77db" type="selectionEntry">
+    <entryLink id="aaf6-5649-5ea4-49c4" name="Nick Valentine" hidden="false" collective="false" import="true" targetId="015e-f307-f241-f1f8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="99f5-ad96-103d-0a5d" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="75a3-034e-4659-278d" name="zU Preston Garvey" hidden="false" collective="false" import="true" targetId="dbc9-bbf0-7261-f7b4" type="selectionEntry">
+    <entryLink id="75a3-034e-4659-278d" name="Piper" hidden="false" collective="false" import="true" targetId="24b1-6dfd-bb9d-4d78" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0bb7-650c-1a5b-f767" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bb2f-903b-8c09-b78b" name="zU Ronnie Shaw" hidden="false" collective="false" import="true" targetId="85c8-003c-8d56-843a" type="selectionEntry">
+    <entryLink id="bb2f-903b-8c09-b78b" name="Ronnie Shaw" hidden="false" collective="false" import="true" targetId="1abf-b497-ddb4-6863" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1437-c1ab-cbf9-9711" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2b0a-6ad2-f5bb-1c4b" name="zU Scavenger" hidden="false" collective="false" import="true" targetId="3219-568b-76d3-05ee" type="selectionEntry">
+    <entryLink id="2b0a-6ad2-f5bb-1c4b" name="The Sole Survivor" hidden="false" collective="false" import="true" targetId="5d65-69a2-8f49-912e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6798-6ca1-297f-03a2" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+        <categoryLink id="8bc0-4b26-b6a8-8e6c" name="Unique Units" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3ff2-6ca5-7e48-2bd4" name="zU Sturges" hidden="false" collective="false" import="true" targetId="e93b-c113-14df-e717" type="selectionEntry">
+    <entryLink id="3ff2-6ca5-7e48-2bd4" name="Minuteman" hidden="false" collective="false" import="true" targetId="bf77-6a9e-5a63-2c30" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7b30-7253-8af8-0ec1" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+        <categoryLink id="ca40-ae18-3244-124b" name="Units" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ca59-a49d-8ade-0c44" name="zU X6-88 Courser" hidden="false" collective="false" import="true" targetId="368a-6000-0c1c-5072" type="selectionEntry">
@@ -61,12 +61,12 @@
         <categoryLink id="e46e-74fb-ae0a-dbde" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="69b2-6a86-aeff-3e8f" name="zU Sole Survivor" hidden="false" collective="false" import="true" targetId="f06e-f301-c7ef-101d" type="selectionEntry">
+    <entryLink id="69b2-6a86-aeff-3e8f" name="Nuka-Girl" hidden="false" collective="false" import="true" targetId="c68a-5a80-519c-c301" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cab4-7bec-7439-5394" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="99bd-0636-ffed-11f1" name="zU Codsworth" hidden="false" collective="false" import="true" targetId="de47-0cc0-7d79-f5af" type="selectionEntry">
+    <entryLink id="99bd-0636-ffed-11f1" name="Hancock" hidden="false" collective="false" import="true" targetId="082f-5664-2eb4-0fd9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a3c3-9f97-8b5e-fcaa" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
@@ -81,22 +81,22 @@
         <categoryLink id="2834-67b2-8163-3581" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3985-e137-33ee-ab4d" name="zU Dogmeat" hidden="false" collective="false" import="true" targetId="9474-3cea-4c03-45d2" type="selectionEntry">
+    <entryLink id="3985-e137-33ee-ab4d" name="Preston Garvey" hidden="false" collective="false" import="true" targetId="e369-5ed2-16b5-288b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="82b2-8ba1-5d34-ef74" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d0f0-6b2f-0618-03bb" name="zU Nuka-Girl" hidden="false" collective="false" import="true" targetId="c06e-6bfe-a264-8b69" type="selectionEntry">
+    <entryLink id="d0f0-6b2f-0618-03bb" name="Sturges" hidden="false" collective="false" import="true" targetId="8474-9ac7-12a1-54ae" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0624-4dc5-f6c4-9138" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="825a-c982-8357-0dd4" name="Nick Valentine" hidden="false" collective="false" import="true" targetId="01ff-701c-c95e-ce61" type="selectionEntry">
+    <entryLink id="825a-c982-8357-0dd4" name="Codsworth" hidden="false" collective="false" import="true" targetId="c8b0-c50d-978b-0b26" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3430-09a1-b9c6-ff23" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ac5f-2b3e-27dc-50fe" name="Hancock" hidden="false" collective="false" import="true" targetId="efba-ab2f-4396-98fc" type="selectionEntry">
+    <entryLink id="ac5f-2b3e-27dc-50fe" name="Cait" hidden="false" collective="false" import="true" targetId="2e68-6b0a-0625-044d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="45fb-b279-581b-82cf" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
       </categoryLinks>
@@ -104,6 +104,16 @@
     <entryLink id="4fab-04aa-b614-42ad" name="Strong" hidden="false" collective="false" import="true" targetId="98ba-a3c7-5950-af1a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0c8b-1110-3804-63a0" name="New CategoryLink" hidden="false" targetId="fd4e-6748-2277-bf77" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a3e7-e883-df83-e3df" name="Vault Dweller" hidden="false" collective="false" import="true" targetId="a5fe-74ad-02ea-e930" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="65f2-ba8f-3785-4eb5" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9890-0702-d731-5906" name="Vault-Security Officer" hidden="false" collective="false" import="true" targetId="0829-8dfd-d17f-bf6b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fe1b-4c33-bb61-a7a1" name="New CategoryLink" hidden="false" targetId="d84a-1cd2-6dcc-ddb2" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -117,4 +127,7 @@
 2. Can have up to two Sole survivors with different names in same force.</description>
     </rule>
   </rules>
+  <catalogueLinks>
+    <catalogueLink id="d010-73e7-8c12-64cd" name="Library-survivors" targetId="e60d-8648-5d7d-4653" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>

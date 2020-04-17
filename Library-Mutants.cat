@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0c83-6163-318f-f488" name="Library-Mutants" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="5510-5cd9-5e0f-1967" name="Aviator" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eacf-b24b-7d6d-220d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b64d-731b-a8fb-01f1" name="Aviator Cap" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf0-608a-1a32-0501" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1314-ca2d-46b7-520c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aef4-4409-977c-565d" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4a6e-a265-cdb6-9083" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="7917-cea2-0985-6a03" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7eca-f400-675c-defa" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="91bd-4f55-8b12-718b" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="6c14-05c8-3621-a5dd" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="af1c-cea9-3a24-0489" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="b671-c7e4-0588-5ccc" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="3a0b-658b-7ec1-e023" name="Hunting Rifle" hidden="false" collective="false" import="true" targetId="dc8d-0114-b75d-4ece" type="selectionEntry"/>
+                    <entryLink id="6e35-4fc8-767b-560b" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7dc6-0145-4364-632a" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="380a-b78d-f6a1-fac3" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="6e94-8068-66df-0726" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="c256-f016-35ba-1516" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="e0ae-f5c5-17d7-f9eb" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="7352-cad0-7822-9c5d" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="2ec7-a7cd-fa0b-06ba" name="Board" hidden="false" collective="false" import="true" targetId="7ca9-c38b-bbfc-700c" type="selectionEntry"/>
+                    <entryLink id="8562-9cf8-19ef-f711" name="Lead Pipe" hidden="false" collective="false" import="true" targetId="5812-d884-f71c-a349" type="selectionEntry"/>
+                    <entryLink id="fe15-13f0-ee19-3103" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="19a8-63ac-d263-cd23" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="03cd-d6db-1479-be42" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="22da-3d3c-cba2-54e2" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6e54-dbaa-2cd5-ef94" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="6cd2-616e-6ed8-7ba1" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="dab2-9d64-c2fe-56f8" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="6f6f-7fc5-d944-6ab7" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="88.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8cf8-976c-b31d-875b" name="Behemoth" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0da9-8fe6-4ae0-b09c" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f8b1-3aa9-6ee8-d9ee" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="dc02-adb0-8390-c532" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8484-de94-15fa-264e" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0ba9-8fb1-f00d-b77a" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="daa7-2e76-e38f-968f" name="Fire Hydrant Bat" hidden="false" collective="false" import="true" targetId="e61d-2145-1cd7-74b9" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="a202-83fe-bc02-924e" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="05cd-8481-ac47-3333" name="Behemoth Rock Throw" hidden="false" collective="false" import="true" targetId="d78c-6e56-3607-f414" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="3661-a496-5afd-6cd9" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="10a1-7d89-26b3-5e8c" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="0a31-21e4-de47-2aeb" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="dc04-d18c-81cb-3a2a" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="245.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1cf-16fb-79a8-a85e" name="Brute" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6699-2653-5c97-dc3e" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2ed1-58a5-edb6-6a21" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="ce5f-22cf-8a9c-4e28" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="0e95-1566-2a3e-f6b8" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="eb52-830a-30e8-8880" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="da2c-e9ff-5fcc-a731" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="8067-4dc1-afc3-046b" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="671d-431b-e382-18d8" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="a654-960f-7d61-04f8" name="Hunting Rifle" hidden="false" collective="false" import="true" targetId="dc8d-0114-b75d-4ece" type="selectionEntry"/>
+                    <entryLink id="6287-8231-bca9-673e" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                    <entryLink id="41ec-64a9-8e23-6edd" name="Combat Rifle" hidden="false" collective="false" import="true" targetId="987b-727b-6c88-b941" type="selectionEntry"/>
+                    <entryLink id="429a-60c6-6fb0-fd57" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                    <entryLink id="0e14-7daa-2736-dfd7" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="b666-398f-63b3-796b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="a478-7a93-9e95-1baf" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="ff95-b8e1-00a7-ba70" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="beef-bc42-62dc-2918" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="8f3c-8c1a-6c41-060c" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="7c9f-b1c3-d98b-8243" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="c522-37ee-ceb4-5667" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="c27c-546a-35e2-c419" name="Board" hidden="false" collective="false" import="true" targetId="7ca9-c38b-bbfc-700c" type="selectionEntry"/>
+                    <entryLink id="b612-c0f5-18f8-68ee" name="Lead Pipe" hidden="false" collective="false" import="true" targetId="5812-d884-f71c-a349" type="selectionEntry"/>
+                    <entryLink id="61c2-065f-d3bd-7be3" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="8246-8072-17da-c99d" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="36c9-de04-2ece-bf7a" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="cb10-a0df-6021-9c53" name="Heavy" hidden="false" collective="false" import="true" targetId="9cd8-2c88-b6f1-cefa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="004e-4161-582a-6f21" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0327-4be4-55ce-9ab6" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="8d1e-16c1-7fd3-c9b7" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="f392-a899-4d4d-7223" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="f83d-7d00-6c31-8b69" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="87.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d88-0a2f-0daa-f048" name="Fist" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdf5-134a-45bb-0613" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="27b0-d85b-0b18-d858" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1e5f-5531-f125-81ed" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="d393-cc12-8966-cdfd" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b45a-756e-4ee6-bc42" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8e3b-1487-7628-7e79" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="e205-6eb3-1aeb-8941" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="2d43-d962-32a7-139e" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="9626-b752-d3c2-7537" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="0fda-58b4-b5f8-0782" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="b817-21b3-0499-c0a9" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="4979-9019-67bb-a31f" name="Board" hidden="false" collective="false" import="true" targetId="7ca9-c38b-bbfc-700c" type="selectionEntry"/>
+                    <entryLink id="1a25-f8c7-89d3-3a33" name="Huge Club" hidden="false" collective="false" import="true" targetId="38a3-4605-e76f-177b" type="selectionEntry"/>
+                    <entryLink id="3252-fa05-d45f-cd46" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="ac82-5507-ec1b-481f" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="47b4-693a-e3f2-5291" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="fd1c-fba6-ba31-eb04" name="Heavy" hidden="false" collective="false" import="true" targetId="9cd8-2c88-b6f1-cefa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="8ced-75d9-8ce2-7a3f" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7b18-d6f8-ddd7-a209" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="6b67-408e-1426-8f17" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="66b3-3c4a-4499-e074" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="6703-89ce-ccc2-fed8" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="79.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0c8-c0a0-d95d-33ac" name="Hammer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f8-3c29-f093-d5c1" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8f44-5317-b7f5-4ff0" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="51ae-9218-9cd7-a72b" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="9641-b0e1-b814-f944" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="1465-f0d5-34ed-6764" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b792-0c19-e970-2566" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="cd9c-6b2a-6e28-5627" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="64fa-ebe9-5eed-c2db" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="5d86-a03d-0fc3-dc64" name="Huge Club" hidden="false" collective="false" import="true" targetId="38a3-4605-e76f-177b" type="selectionEntry"/>
+                    <entryLink id="b35b-e1b6-b30e-484e" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                    <entryLink id="4e06-53b9-024b-2b3e" name="Super Sledge" hidden="false" collective="false" import="true" targetId="7352-ab75-cbfa-bcfd" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="8794-ac53-041d-8ed6" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="7dfa-adfc-a216-7d6f" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="87d6-c774-c2be-80f0" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="29d1-8c09-6887-1775" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="26ad-32d3-91d5-d72b" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="96b5-a877-e847-8633" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="df0f-71d1-a300-72da" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                    <entryLink id="4bc8-af99-c8b8-26f4" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                    <entryLink id="8311-6179-6f06-e653" name="Combat Rifle" hidden="false" collective="false" import="true" targetId="987b-727b-6c88-b941" type="selectionEntry"/>
+                    <entryLink id="f330-8291-e537-b6fb" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="b666-398f-63b3-796b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="5131-8833-6601-6187" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="b303-061b-f4fe-8401" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="5e4b-ef8d-3721-88f2" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                    <entryLink id="0c40-db2b-28bc-da53" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="c4a3-6de8-9c45-b442" name="Heavy" hidden="false" collective="false" import="true" targetId="9cd8-2c88-b6f1-cefa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="146e-48c2-fb2b-7878" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f2a0-82f5-29e0-b12a" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="2c90-6f82-0a4a-238a" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="661c-8f3f-7fcc-6e37" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="2e79-98ea-2ef1-f2ac" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b6e-3c3d-5c11-e0ab" name="Hound Bite" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67c1-1555-30ec-8b3e" name="Master" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f98d-5fad-7cc1-0fb4" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9fe1-a507-65dc-52ca" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8eec-8221-f267-6e72" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="d52a-d9ef-417c-8ec9" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="84f6-760e-80af-95ae" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="52aa-38f7-5e10-85a4" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="4a4c-19be-ef4b-fd3d" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="3f3c-22f4-cc1f-f7ae" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="961e-73f7-b931-8c63" name="Huge Club" hidden="false" collective="false" import="true" targetId="38a3-4605-e76f-177b" type="selectionEntry"/>
+                    <entryLink id="cc36-b69c-88be-b1f1" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                    <entryLink id="914a-d845-5cb6-b7b4" name="Super Sledge" hidden="false" collective="false" import="true" targetId="7352-ab75-cbfa-bcfd" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="b891-ee0d-d204-8ff8" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="a429-a51b-ab2f-6a47" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f37c-33d1-b171-fd0d" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="2213-7b54-db0c-2744" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="c798-8c65-7c6c-e887" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="4e1d-83c4-cb9d-a812" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="1e71-3ab1-3b0e-2c1c" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                    <entryLink id="7e99-74d3-ddfa-bab2" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                    <entryLink id="19e5-76f9-ddef-9659" name="Combat Rifle" hidden="false" collective="false" import="true" targetId="987b-727b-6c88-b941" type="selectionEntry"/>
+                    <entryLink id="7745-8f62-02b7-4b11" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="b666-398f-63b3-796b" type="selectionEntry"/>
+                    <entryLink id="7784-6931-eba1-26af" name="Gauss Rifle" hidden="false" collective="false" import="true" targetId="81d8-4e7a-87a2-c854" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6c4a-b76d-205b-515d" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="f029-18be-d70d-8bc0" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="8271-222b-c2cc-d6a1" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                    <entryLink id="0c4b-6d0e-7feb-9fd3" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="0b24-d09f-1821-6037" name="Heavy" hidden="false" collective="false" import="true" targetId="9cd8-2c88-b6f1-cefa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="b3cd-ab96-76f8-7294" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2d2a-32d6-9b87-d9df" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="164c-1912-7fb3-6a9b" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="2537-dd55-733c-8571" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="672d-8523-71b0-2c4f" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cbba-2f5e-72b8-8e93" name="Mutant Hound" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="4eee-90a9-0be0-3f1c" name="Hound Bite" hidden="false" collective="false" import="true" targetId="1b6e-3c3d-5c11-e0ab" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9783-261d-e68f-9fdc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e17d-7064-8455-dd25" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e726-5de2-cbab-3e49" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="5f90-c6cc-9f52-f4d9" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="63.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f53f-6ff1-d7df-befc" name="Mutant Hound Fiend" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="074e-f128-e0c9-270f" name="Hound Bite" hidden="false" collective="false" import="true" targetId="1b6e-3c3d-5c11-e0ab" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dfc-709b-c5f9-629c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebc-cd43-fb80-77a8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c680-4e95-abce-80d2" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="70b8-8e5d-f98b-79c5" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6917-39db-bce7-b5bd" name="Overlord" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8b86-b130-b9d8-fc0d" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0348-057f-c0d4-b258" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="2e28-8024-46e3-9cb0" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a539-ad2e-b03f-a827" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="380d-e201-3aed-37fe" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="abf6-c463-6042-47b0" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="9cd2-5ecc-de41-d7d2" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="828f-9a80-dfb1-f088" name="Huge Club" hidden="false" collective="false" import="true" targetId="38a3-4605-e76f-177b" type="selectionEntry"/>
+                    <entryLink id="141c-5f9f-ec59-a528" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                    <entryLink id="a01b-4c46-2e3f-0109" name="Super Sledge" hidden="false" collective="false" import="true" targetId="7352-ab75-cbfa-bcfd" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7bc7-af8e-f4f4-609b" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="fb19-d067-41bd-2ae3" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                    <entryLink id="08f4-2d05-1e73-11a1" name="Fragmentation Grenade" hidden="false" collective="false" import="true" targetId="9590-49a4-20f1-0cee" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="14b5-4a2d-e1d8-5138" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="b2af-6c2b-a711-efbc" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="b0f3-9272-bf19-bbdf" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="1739-c423-e2bb-040c" name="Combat Shotgun" hidden="false" collective="false" import="true" targetId="82ad-77b9-3ce2-27c8" type="selectionEntry"/>
+                    <entryLink id="4ac7-f459-4e05-5b03" name="Laser Rifle" hidden="false" collective="false" import="true" targetId="225b-07fc-3fc4-027b" type="selectionEntry"/>
+                    <entryLink id="7b2a-e256-9bae-a4e1" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                    <entryLink id="5588-9095-5ba0-6d4d" name="Combat Rifle" hidden="false" collective="false" import="true" targetId="987b-727b-6c88-b941" type="selectionEntry"/>
+                    <entryLink id="67ff-880c-ac16-b83c" name="Plasma Rifle" hidden="false" collective="false" import="true" targetId="b666-398f-63b3-796b" type="selectionEntry"/>
+                    <entryLink id="6761-b71f-04bb-1a25" name="Gauss Rifle" hidden="false" collective="false" import="true" targetId="81d8-4e7a-87a2-c854" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="ddcb-87f8-5f58-9d6e" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="7aa0-ccab-b5c4-78e6" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="0203-728d-a9c4-b939" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                    <entryLink id="8e00-fe4c-1d02-0cfa" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="b3c5-a141-8dd1-e321" name="Heavy" hidden="false" collective="false" import="true" targetId="9cd8-2c88-b6f1-cefa" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="0e5a-1b01-8580-f636" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="73fc-7a02-1624-5dce" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="9e58-6824-e506-f3f3" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="9e34-d593-240d-97b6" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="030a-2aff-03d8-e0c0" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="051e-6c8f-f22f-ac76" name="Skirmisher" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3685-eef0-8939-7ba6" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a406-1040-937c-8274" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="e3ef-44e4-63d0-2b53" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3cb6-3da1-e6c7-6bd0" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="da94-d620-f971-e6a9" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="6794-4a17-6f8e-64b4" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="57e1-298f-c5f2-9595" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="d1f0-02d0-44bb-647b" name="Board" hidden="false" collective="false" import="true" targetId="7ca9-c38b-bbfc-700c" type="selectionEntry"/>
+                    <entryLink id="627f-680a-9508-0c10" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                    <entryLink id="24d2-18cd-ce82-ba58" name="Super Sledge" hidden="false" collective="false" import="true" targetId="7352-ab75-cbfa-bcfd" type="selectionEntry"/>
+                    <entryLink id="d2d0-c165-4f51-38c1" name="Lead Pipe" hidden="false" collective="false" import="true" targetId="5812-d884-f71c-a349" type="selectionEntry"/>
+                    <entryLink id="54bd-1d08-5c99-1965" name="Tire Iron" hidden="false" collective="false" import="true" targetId="6f1a-f72d-ece5-a1d5" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="0f86-d12c-6709-3fa6" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="e92e-2133-b675-cb3d" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f732-8746-4d15-009c" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="20e0-4b0d-a740-7b9a" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="e9e6-a612-fb58-f8db" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="b60a-c943-2fb8-3297" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6853-dc94-8d86-8596" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="6c21-a255-7834-5e7b" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="4802-e0cb-15e2-4d64" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="7ee1-c704-d568-414a" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="49.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e87-b354-579e-fd28" name="Suicider" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="809c-ab2f-32bd-b16e" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="9fe0-62ea-d4d0-948f" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="340c-6939-fd4a-e033" name="Suicider Mini Nuke" hidden="false" collective="false" import="true" targetId="0419-492a-06c2-c84a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e41-3b5f-aa22-3563" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743c-1d44-3ac3-c3ff" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0419-492a-06c2-c84a" name="Suicider Mini Nuke" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b2c-b6ef-cfed-d762" name="Super Mutant" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f30d-7fa7-ab36-d0ae" name="Equipment" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4084-5433-6bd1-827a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ee57-f967-1a70-197c" name="Armor" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="ed23-9d97-be07-78e2" name="Clothing" hidden="false" collective="false" import="true" targetId="67c7-8be6-c6d5-530d" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7637-c2da-ea0d-9f51" name="Weapons" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="cf71-2090-717e-36c3" name="Melee" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="cc6d-fdc0-9597-90fe" name="Nail Board" hidden="false" collective="false" import="true" targetId="2211-2bc4-2f3f-7561" type="selectionEntry"/>
+                    <entryLink id="3000-3557-69dc-6871" name="Baseball Bat" hidden="false" collective="false" import="true" targetId="8a8c-ab79-1fb3-3319" type="selectionEntry"/>
+                    <entryLink id="7a2c-cf7f-603b-2102" name="Huge Club" hidden="false" collective="false" import="true" targetId="38a3-4605-e76f-177b" type="selectionEntry"/>
+                    <entryLink id="52b1-9862-8fc0-efd3" name="Sledgehammer" hidden="false" collective="false" import="true" targetId="8f2b-083b-43f4-cff2" type="selectionEntry"/>
+                    <entryLink id="b70d-b145-a3e1-e6e7" name="Super Sledge" hidden="false" collective="false" import="true" targetId="7352-ab75-cbfa-bcfd" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="4359-c6fd-feb4-2303" name="Thrown" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="5669-2142-3dcd-0a20" name="Molotov Cocktail" hidden="false" collective="false" import="true" targetId="e8a1-b557-c9b5-5c06" type="selectionEntry"/>
+                    <entryLink id="1571-b6c6-0c09-5ee6" name="Fragmentation Grenade" hidden="false" collective="false" import="true" targetId="9590-49a4-20f1-0cee" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f7de-8387-8ab8-d4d7" name="Rifles" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="33f0-867b-f67b-2870" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="3d02-c841-2a44-4d87" type="selectionEntry"/>
+                    <entryLink id="2da3-9b37-d80b-9a06" name="Bolt-Action Pipe Rifle" hidden="false" collective="false" import="true" targetId="2a39-fa43-ad4b-21f0" type="selectionEntry"/>
+                    <entryLink id="9e46-405d-ab53-1071" name="Hunting Rifle" hidden="false" collective="false" import="true" targetId="dc8d-0114-b75d-4ece" type="selectionEntry"/>
+                    <entryLink id="21c7-bdd6-8ffb-5513" name="Pipe Rifle" hidden="false" collective="false" import="true" targetId="5d01-e353-305d-8f94" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="e982-d399-31e5-7ce4" name="Pistols" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="a185-83d6-8ea5-0cc5" name="Bolt-Action Pipe Pistol" hidden="false" collective="false" import="true" targetId="1f64-3e3d-27c2-3c8c" type="selectionEntry"/>
+                    <entryLink id="df21-df6e-bab9-1217" name="Pipe Pistol" hidden="false" collective="false" import="true" targetId="6155-5670-ea58-214e" type="selectionEntry"/>
+                    <entryLink id="5c45-42bb-fe75-ce5f" name="Laser Pistol" hidden="false" collective="false" import="true" targetId="1813-4971-4b1b-a642" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="9d07-c813-03b9-b525" name="Items" hidden="false" collective="false" import="true" targetId="9885-3fa6-bed4-6cbb" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="91f5-0e74-d26c-0917" name="Heroic" hidden="false" collective="false" import="true" targetId="552b-915a-9041-7b4b" type="selectionEntry"/>
+        <entryLink id="2ca5-d29b-bf23-08a6" name="Leader" hidden="false" collective="false" import="true" targetId="228f-baa9-7ae2-4851" type="selectionEntryGroup"/>
+        <entryLink id="62d9-58bc-7518-2d51" name="Perks" hidden="false" collective="false" import="true" targetId="4022-4f82-89cc-1e9e" type="selectionEntryGroup"/>
+        <entryLink id="a155-b23a-ef2b-d383" name="Equipment" hidden="true" collective="false" import="true" targetId="0722-5ce9-7cae-ab28" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d3-8b38-55b1-2a96" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="40.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

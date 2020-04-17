@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a7d2-3fcb-3d73-c41d" name="LIbrary-Monsters" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="7e9f-cab7-294b-0a43" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="efc4-735e-ca72-c01b" name="Alien" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="93b1-bb2e-7f85-5534" name="Alian Blaster" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faa6-54c0-bc05-8ef6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410b-814b-5830-9176" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a7c-b82a-9cda-e8ac" name="Bloated Glowing One" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="23a4-ac2f-4913-1419" name="Bloated Glowing One Swipe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9ce-7335-407a-4cb3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b398-d89d-3045-8e8c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edd8-f27d-ca94-1105" name="Deathclaw" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="8397-4421-0c3d-3f88" name="Deathclaw Crush" hidden="false" collective="false" import="true" targetId="03d3-3d21-9120-3977" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="361c-6f77-4098-5469" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c501-e824-4d9a-4726" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b3c9-8f1f-f0e2-5a2e" name="Deathclaw Swipe" hidden="false" collective="false" import="true" targetId="e4a9-8024-5cf5-1596" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e579-31f7-7030-39a1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd3-cf1a-4e02-ff77" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="295.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03d3-3d21-9120-3977" name="Deathclaw Crush" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4a9-8024-5cf5-1596" name="Deathclaw Swipe" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="148b-2252-fbda-70f7" name="Feral Ghoul" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="d2d6-4dda-1d62-b007" name="Feral Ghoul Swipe" hidden="false" collective="false" import="true" targetId="afa7-f507-d884-2671" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b011-02c6-3446-fa93" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9611-7d50-632c-e013" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afa7-f507-d884-2671" name="Feral Ghoul Swipe" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7071-1cf9-70ea-eb25" name="Glowing Radroach Swarm" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="ef93-dd57-d0f1-930d" name="Glowing Radroach Swarm Bite" hidden="false" collective="false" import="true" targetId="83c8-0e84-e415-74d5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd8-59c3-4318-c459" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ee-8927-a96b-bdf0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83c8-0e84-e415-74d5" name="Glowing Radroach Swarm Bite" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f44-1a69-9afc-88d0" name="Mole Rat" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="682f-6c08-513d-29e8" name="Mole Rat Bite" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d8-eca8-c164-ae98" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae7-4963-71b2-d315" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d243-a32d-3437-4b27" name="Putrid Glowing One" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="47e8-4566-5fa4-956a" name="Putrid Glowing One Swipe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeab-fc9b-3f7a-67d5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="567b-633a-cd31-dcda" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="210.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fed-5dd2-c3f1-f5fc" name="Radroach Swam" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="07df-3597-9e25-7f83" name="Radroach Swarm Bite" hidden="false" collective="false" import="true" targetId="21c7-eafc-3afb-a14b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4053-c2f8-db9a-c018" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a62d-fd23-e833-39fa" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="21c7-eafc-3afb-a14b" name="Radroach Swarm Bite" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d881-57c9-6b7a-c71e" name="Radscorpion" hidden="false" collective="false" import="true" type="model">
+      <entryLinks>
+        <entryLink id="619d-1efc-6c3c-c240" name="Radscorpion Pincers &amp; Sting" hidden="false" collective="false" import="true" targetId="e481-25ef-d017-8426" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f99-403d-3d5e-f90d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24e-ec4c-ed3c-b1c9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e481-25ef-d017-8426" name="Radscorpion Pincers &amp; Sting" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eadc-8520-6e14-eeb7" name="Weak Feral Ghoul" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="90f9-d70d-b975-a047" name="Weak Feral Ghoul Swipe" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3da7-4101-e9bd-dfbb" name="Young Deathclaw" hidden="false" collective="false" import="true" type="model">
+      <selectionEntries>
+        <selectionEntry id="1fac-cf76-9bc2-3fb3" name="Young Deathclaw Crush" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d2ea-e39f-16c4-454f" name="Young Deathclaw Swipe" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Caps" typeId="cac8-29eb-2cba-7923" value="125.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
